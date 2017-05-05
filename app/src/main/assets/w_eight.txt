@@ -1,0 +1,945 @@
+{"meaning":"n. 废除，革除","english":"﻿abolition"}
+{"meaning":"adj.抽象的；深奥的","english":"abstract"}
+{"meaning":"a.学院的；学术的","english":"academic"}
+{"meaning":"vt.积累 vi.堆积","english":"accumulate"}
+{"meaning":"n.准确(性)；准确度","english":"accuracy"}
+{"meaning":"n. 承认,承认书,感谢","english":"acknowledgment"}
+{"meaning":"n. (有价值的)获得","english":"acquisition"}
+{"meaning":"vt.使适应；改编","english":"adapt"}
+{"meaning":"n. 适应","english":"adaptation"}
+{"meaning":"a.足够的；可以胜任的","english":"adequate"}
+{"meaning":"vi.粘附；追随；坚持","english":"adhere"}
+{"meaning":"n.形容词 a.形容词的","english":"adjective"}
+{"meaning":"n. 调节","english":"adjustment"}
+{"meaning":"n. 钦佩者,仰慕者,求爱者","english":"admirer"}
+{"meaning":"n. 忙乱，骚扰","english":"ado"}
+{"meaning":"n.成年人 a.成年的","english":"adult"}
+{"meaning":"n. 顾问,指导教授,劝告者","english":"adviser"}
+{"meaning":"n. （不严重的）疾病","english":"ailment"}
+{"meaning":"a.警惕的；活跃的","english":"alert"}
+{"meaning":"vt. 使镇静,使缓和","english":"allay"}
+{"meaning":"vt. 分配,分摊指定","english":"allot"}
+{"meaning":"n. 诱惑物","english":"allurement"}
+{"meaning":"n.同盟国；同盟者","english":"ally"}
+{"meaning":"n. 年鉴,历书","english":"almanac"}
+{"meaning":"prep.在\u2026旁边","english":"alongside"}
+{"meaning":"n.字母表","english":"alphabet"}
+{"meaning":"a. 高山的,极高的","english":"alpine"}
+{"meaning":"n./v. 埋伏，伏击","english":"ambush"}
+{"meaning":"n.分析，分解，解析","english":"analysis"}
+{"meaning":"a. 祖先的","english":"ancestral"}
+{"meaning":"a. 天使的,似天使的","english":"angelic"}
+{"meaning":"n. 纪年表,年鉴,年报","english":"annals"}
+{"meaning":"n. 圣歌，赞美歌","english":"anthem"}
+{"meaning":"n. 雄蕊的花粉囊,花药","english":"anther"}
+{"meaning":"n. 抗毒素","english":"antitoxin"}
+{"meaning":"n.焦虑，忧虑；渴望","english":"anxiety"}
+{"meaning":"ad. 快速地,急速地","english":"apace"}
+{"meaning":"n. 孔隙，窄的缺口","english":"aperture"}
+{"meaning":"n.附录，附属物；阑尾","english":"appendix"}
+{"meaning":"n.欣赏；鉴别；感激","english":"appreciation"}
+{"meaning":"n. 拨款，挪用公款","english":"appropriation"}
+{"meaning":"a.随心所欲的；专断的","english":"arbitrary"}
+{"meaning":"n. 大教主","english":"archbishop"}
+{"meaning":"n. （运动或战争中的）弓箭手，射手","english":"archer"}
+{"meaning":"adj. 热心的，热烈的","english":"ardent"}
+{"meaning":"n. 贵族","english":"aristocrat"}
+{"meaning":"adj. 芳香的","english":"aromatic"}
+{"meaning":"n. 傲慢，自大","english":"arrogance"}
+{"meaning":"adj. 傲慢的，自大的","english":"arrogant"}
+{"meaning":"a. 巧妙的,狡滑的","english":"artful"}
+{"meaning":"v. 清楚说话，接合","english":"articulate"}
+{"meaning":"n. 上升攀登","english":"ascent"}
+{"meaning":" adj. 亚洲的; 亚洲人的","english":"Asiatic"}
+{"meaning":"n. 芦笋（可作蔬菜）","english":"asparagus"}
+{"meaning":"n. 沥青","english":"asphalt"}
+{"meaning":"n. 渴望，热望","english":"aspiration"}
+{"meaning":"n. 断言,主张","english":"assertion"}
+{"meaning":"v. 同化，吸收","english":"assimilate"}
+{"meaning":"n. 假设","english":"assumption"}
+{"meaning":"vt. 使惊骇,使大吃一惊","english":"astound"}
+{"meaning":"adj. 迷路的，误入歧途的","english":"astray"}
+{"meaning":"n.宇宙航行员","english":"astronaut"}
+{"meaning":"n. 天文学家","english":"astronomer"}
+{"meaning":"n.原子","english":"atom"}
+{"meaning":"n.连接物，附件；爱慕","english":"attachment"}
+{"meaning":"n. 大胆，鲁莽","english":"audacity"}
+{"meaning":"a. 听得见的","english":"audible"}
+{"meaning":"adj. 朴素的，(人)正经的","english":"austere"}
+{"meaning":"a.可利用的；通用的","english":"available"}
+{"meaning":"v. 避免,避开","english":"avert"}
+{"meaning":"n.背景，后景，经历","english":"background"}
+{"meaning":"n. 保释,把手,栅栏,桶箍","english":"bail"}
+{"meaning":"n. 大包裹，灾祸，不幸","english":"bale"}
+{"meaning":"n.气球","english":"balloon"}
+{"meaning":"n. 投票,投票用纸,抽签","english":"ballot"}
+{"meaning":"n.绷带，包带","english":"bandage"}
+{"meaning":"a.破产的 vt.使破产","english":"bankrupt"}
+{"meaning":"n. 施洗者约翰,施洗者,浸信会教友","english":"Baptist"}
+{"meaning":"vt. 施洗礼,提炼,命名","english":"baptize"}
+{"meaning":"v. 大叫，大喊","english":"bawl"}
+{"meaning":"n.支承；忍受；方位","english":"bearing"}
+{"meaning":"a. 如兽的,残忍的,令人不愉快的","english":"beastly"}
+{"meaning":"vt. 美化,变美,修饰","english":"beautify"}
+{"meaning":"n. 海狸","english":"beaver"}
+{"meaning":"n.就寝时间","english":"bedtime"}
+{"meaning":"vt. 适合,适宜,合适","english":"befit"}
+{"meaning":"vt. 待人如友,帮助","english":"befriend"}
+{"meaning":"n. 信徒","english":"believer"}
+{"meaning":"a.有利的，有益的","english":"beneficial"}
+{"meaning":"ad. 早,及时,及早","english":"betimes"}
+{"meaning":"n. 棺材","english":"bier"}
+{"meaning":"n. 箱柜","english":"bin"}
+{"meaning":"a. (含)沥青的","english":"bituminous"}
+{"meaning":"adj. （人）情绪平稳的，（食物）无味的","english":"bland"}
+{"meaning":"vt.vi. 亵渎","english":"blaspheme"}
+{"meaning":"vi. 眨眼睛","english":"blink"}
+{"meaning":"vi.犯大错 n.大错","english":"blunder"}
+{"meaning":"n. 兴旺","english":"boom"}
+{"meaning":"n. 一回合，一阵","english":"bout"}
+{"meaning":"n. 吹牛","english":"brag"}
+{"meaning":"vt. 挥,挥舞","english":"brandish"}
+{"meaning":"n.白兰地酒","english":"brandy"}
+{"meaning":"a.脆的；易损坏的","english":"brittle"}
+{"meaning":"n. 肉汤","english":"broth"}
+{"meaning":"n. 肉汤","english":"broth"}
+{"meaning":"n.预算，预算案","english":"budget"}
+{"meaning":"v. 欺负，威协","english":"bully"}
+{"meaning":"n. 浮标，救生圈，v. 支持，鼓励","english":"buoy"}
+{"meaning":"adj. 易浮的，快乐的.","english":"buoyant"}
+{"meaning":"n. 公民,市民","english":"burgher"}
+{"meaning":"n.夜盗，窃贼","english":"burglar"}
+{"meaning":"n.灯头，煤气头","english":"burner"}
+{"meaning":"v. 擦亮，磨光","english":"burnish"}
+{"meaning":"n. 仆役长","english":"butler"}
+{"meaning":"n. 咯咯声,高笑声,饶舌,闲谈","english":"cackle"}
+{"meaning":"n. 钙","english":"calcium"}
+{"meaning":"n. 印花棉布,白洋布","english":"calico"}
+{"meaning":"n.照相机","english":"camera"}
+{"meaning":"n.加拿大人","english":"Canadian"}
+{"meaning":"n. 金丝雀，女歌星","english":"canary"}
+{"meaning":"vt.取消，撤消；删去","english":"cancel"}
+{"meaning":"n. 溃疡，弊害","english":"canker"}
+{"meaning":"n. 州,行政区","english":"canton"}
+{"meaning":"n. 毛细管","english":"capillary"}
+{"meaning":"n.碳","english":"carbon"}
+{"meaning":"n. 尸体","english":"carcass"}
+{"meaning":"n. 尸体,架子","english":"carcase"}
+{"meaning":"n.粗心，大意","english":"carelessness"}
+{"meaning":"n.胡罗卜","english":"carrot"}
+{"meaning":"n. 首饰盒,小箱,匣子,棺材","english":"casket"}
+{"meaning":"n. 大灾难,大祸","english":"catastrophe"}
+{"meaning":"n.谷类，五谷，禾谷","english":"cereal"}
+{"meaning":"n.必然；肯定","english":"certainty"}
+{"meaning":"n.炭；木炭","english":"charcoal"}
+{"meaning":"n. 深渊，大差别，代沟","english":"chasm"}
+{"meaning":"v. 严厉惩罚，遣责","english":"chastise"}
+{"meaning":"n. 司机","english":"chauffeur"}
+{"meaning":"adj.化学的","english":"chemical"}
+{"meaning":"n. 紧身衣一种,衬裙","english":"chemise"}
+{"meaning":"n.化学家；药剂师","english":"chemist"}
+{"meaning":"a. 寒冷的","english":"chilly"}
+{"meaning":"n. 霍乱","english":"cholera"}
+{"meaning":"n. 经常去做礼拜的人","english":"churchgoer"}
+{"meaning":"vt.使循环 vi.循环","english":"circulate"}
+{"meaning":"n.圆周，周长，圆周线","english":"circumference"}
+{"meaning":"adj. 吵闹的，喧哗的","english":"clamorous"}
+{"meaning":"n. 清洁工人,清洁剂","english":"cleaner"}
+{"meaning":"n. (总称)教牧人员；神职人员","english":"clergy"}
+{"meaning":"n.(兴趣的)顶点","english":"climax"}
+{"meaning":"adj.笨拙的；不灵活的","english":"clumsy"}
+{"meaning":"v. 哄诱，巧言诱哄","english":"coax"}
+{"meaning":"n. 蜘蛛网,蛛丝,混乱","english":"cobweb"}
+{"meaning":"n.准则；法典；代码","english":"code"}
+{"meaning":"n. 造币","english":"coinage"}
+{"meaning":"vi.倒坍；崩溃，瓦解","english":"collapse"}
+{"meaning":"n.同事，同僚","english":"colleague"}
+{"meaning":"n. 清秀,美丽,合宜","english":"comeliness"}
+{"meaning":"n. 赞赏,嘉奖,推荐","english":"commendation"}
+{"meaning":"n. 交谊,友谊,陪伴","english":"companionship"}
+{"meaning":"adj. 有同情心的","english":"compassionate"}
+{"meaning":"n.补偿，赔偿，赔偿费","english":"compensation"}
+{"meaning":"vi.比赛；竞争；对抗","english":"compete"}
+{"meaning":"n.竞争者，敌手","english":"competitor"}
+{"meaning":"vt.使复杂；使陷入","english":"complicate"}
+{"meaning":"n. 镇静，沉着，自若","english":"composure"}
+{"meaning":"a.广泛的；理解的","english":"comprehensive"}
+{"meaning":"vt.压紧，压缩","english":"compress"}
+{"meaning":"a.强迫的，义务的","english":"compulsory"}
+{"meaning":"vt.&vi.计算","english":"compute"}
+{"meaning":"n.集中；专注；浓缩","english":"concentration"}
+{"meaning":"n. 谴责，定罪","english":"condemnation"}
+{"meaning":"v. 没收，充公","english":"confiscate"}
+{"meaning":"vt.使遵守 vi.一致","english":"conform"}
+{"meaning":"n. 一致","english":"conformity"}
+{"meaning":"v. 聚集，集合","english":"congregate"}
+{"meaning":"n.接合，连接；连接词","english":"conjunction"}
+{"meaning":"n. 蜜饯,果酱","english":"conserve"}
+{"meaning":"ad. 十分地；相当地","english":"considerably"}
+{"meaning":"a.前后一致的，连贯的","english":"consistent"}
+{"meaning":"n.悬臂，肘托；控制台","english":"console"}
+{"meaning":"n. 辅音","english":"consonant"}
+{"meaning":"n. 坚定不移,恒久不变","english":"constancy"}
+{"meaning":"n. 星座，星群","english":"constellation"}
+{"meaning":"a. 宪法的；章程的","english":"constitutional"}
+{"meaning":"adj. 完全的，完美的，v. 完成","english":"consummate"}
+{"meaning":"adj. 传染的，有感染力的","english":"contagious"}
+{"meaning":"vt. 弄污,弄脏,毒害,传染,染污","english":"contaminate"}
+{"meaning":"n. 满足","english":"contentment"}
+{"meaning":"a.大陆的，大陆性的","english":"continental"}
+{"meaning":"n. 继续,续集,延长","english":"continuation"}
+{"meaning":"n. 收缩","english":"contraction"}
+{"meaning":"vt.反驳，否认","english":"contradict"}
+{"meaning":"n.矛盾，不一致；否认","english":"contradiction"}
+{"meaning":"n. 发明,发明的才能,想出的办法,","english":"contrivance"}
+{"meaning":"n.转变，转化；改变","english":"conversion"}
+{"meaning":"adj. 凸出的","english":"convex"}
+{"meaning":"n. 冷,凉爽,冷静","english":"coolness"}
+{"meaning":"n. 合作","english":"co-operation"}
+{"meaning":"n. 小灌木材,杂树林","english":"copse"}
+{"meaning":"n. 加冕，加冕礼","english":"coronation"}
+{"meaning":"n.通信者；通讯员","english":"correspondent"}
+{"meaning":"n. 顾问,辅导员,律师","english":"counsellor"}
+{"meaning":"n. 顾问,参事,法律顾问","english":"counselor"}
+{"meaning":"v. 消除，抵消","english":"counteract"}
+{"meaning":"adj. 贪婪的，贪心的","english":"covetous"}
+{"meaning":"n. 西洋樱草,猿猴草的一种","english":"cowslip"}
+{"meaning":"adj. 狡诈的","english":"crafty"}
+{"meaning":"n. 铁箍，夹子","english":"cramp"}
+{"meaning":"n.曲柄 vi.转动曲柄","english":"crank"}
+{"meaning":"adj. 轻信的，易信的","english":"credulous"}
+{"meaning":"n. 信条，教义","english":"creed"}
+{"meaning":"n. 缺口，裂缝","english":"crevice"}
+{"meaning":"n.危机；存亡之际","english":"crisis"}
+{"meaning":"a.决定性的；批评的","english":"critical"}
+{"meaning":"vt.&vi.批评；责备","english":"criticize"}
+{"meaning":"n. 为维护理想，原则而进行的运动或斗争","english":"crusade"}
+{"meaning":"n.黄瓜","english":"cucumber"}
+{"meaning":"vt. 采,摘,拣","english":"cull"}
+{"meaning":"n. 耕者,栽培者,耕田机","english":"cultivator"}
+{"meaning":"n. 铙钹,高音音栓之一","english":"cymbal"}
+{"meaning":"n. 丹麦人","english":"Dane"}
+{"meaning":"n. 丹麦文","english":"Danish"}
+{"meaning":"v. 使胆怯，使畏缩","english":"daunt"}
+{"meaning":"adj. 勇敢的，无畏的","english":"dauntless"}
+{"meaning":"n. 黎明,拂晓","english":"daybreak"}
+{"meaning":"vt. 使茫然,发昏,使眼花缭乱","english":"daze"}
+{"meaning":"n. 缺乏,粮食不足,饥谨","english":"dearth"}
+{"meaning":"ad.明确地，坚决地","english":"decidedly"}
+{"meaning":"a.决定性的；果断的","english":"decisive"}
+{"meaning":"vt.&vi.腐败；分解","english":"decompose"}
+{"meaning":"n.降级；退化；衰变","english":"degradation"}
+{"meaning":"n. 熟虑,熟思,协议","english":"deliberation"}
+{"meaning":"n. 救助者,引渡人,交付者","english":"deliverer"}
+{"meaning":"n. 欺骗，幻想","english":"delusion"}
+{"meaning":"a.民主的，民主政体的","english":"democratic"}
+{"meaning":"n.牙科医生","english":"dentist"}
+{"meaning":"n. 依赖,依存,信赖","english":"dependence"}
+{"meaning":"vt. 描写","english":"depict"}
+{"meaning":"n. （尤指少女的）风度，举止","english":"deportment"}
+{"meaning":"v. 嘲弄，愚弄","english":"deride"}
+{"meaning":"vt.指出，指示；指定","english":"designate"}
+{"meaning":"n. 专制君主,暴君","english":"despot"}
+{"meaning":"n. 分离、超然、公平","english":"detachment"}
+{"meaning":"adj.  如恶魔的","english":"devilish"}
+{"meaning":"vt.设计，发明","english":"devise"}
+{"meaning":"n. 纯熟、灵巧","english":"dexterity"}
+{"meaning":"n. 王冠,带状头饰,王权","english":"diadem"}
+{"meaning":"n.图解，图表，简图","english":"diagram"}
+{"meaning":"n.直径","english":"diameter"}
+{"meaning":"n.日记，日记簿","english":"diary"}
+{"meaning":"a. 消化的,助消化的","english":"digestive"}
+{"meaning":"adj. 小巧可爱的","english":"diminutive"}
+{"meaning":"n. 哀歌、凄凉之曲调","english":"dirge"}
+{"meaning":"n.不赞成；不满意","english":"disapproval"}
+{"meaning":"n. 信徒、弟子","english":"disciple"}
+{"meaning":" vt. 毁损\u2026的外观,使\u2026变丑; 破坏\u2026的","english":"disfigure"}
+{"meaning":"vt.移置；取代；置换","english":"displace"}
+{"meaning":"n. 分解,溶解,解散,结束","english":"dissolution"}
+{"meaning":"n. 不信任","english":"distrust"}
+{"meaning":"a.不一样的，相异的","english":"diverse"}
+{"meaning":"n. 母鹿,雌兔等","english":"doe"}
+{"meaning":"a. 顽固的,顽强的","english":"dogged"}
+{"meaning":"n. 施舍品,失业救济金,悲哀","english":"dole"}
+{"meaning":"adj. 忧愁的，消沉的","english":"doleful"}
+{"meaning":"n.海豚","english":"dolphin"}
+{"meaning":"n. 领土，领域","english":"domain"}
+{"meaning":"n. 衰败,大雨","english":"downfall"}
+{"meaning":"n.排水；下水道","english":"drainage"}
+{"meaning":"a.引人注目的，戏剧的","english":"dramatic"}
+{"meaning":"vi. 呈褶状垂下","english":"drape"}
+{"meaning":"vt. 使湿透,使充满","english":"drench"}
+{"meaning":"n.旱灾，干旱","english":"drought"}
+{"meaning":"n. 药商,药材商,药剂师","english":"druggist"}
+{"meaning":"n. 决斗","english":"duel"}
+{"meaning":"vt.倾卸，倾倒；倾销","english":"dump"}
+{"meaning":"n.复制品 vt.复制","english":"duplicate"}
+{"meaning":"n. 热心","english":"eagerness"}
+{"meaning":"a. 土制的,陶制的","english":"earthen"}
+{"meaning":"n. 蚯蚓","english":"earthworm"}
+{"meaning":"n. 黑檀树,乌木","english":"ebony"}
+{"meaning":"adj. 古怪的，反常的","english":"eccentric"}
+{"meaning":"a.节约的；经济学的","english":"economical"}
+{"meaning":"n. 经济学者,经济家","english":"economist"}
+{"meaning":"a. 可以吃的","english":"edible"}
+{"meaning":"v. 陶冶，启发","english":"edify"}
+{"meaning":"n.编辑，编者，校订者","english":"editor"}
+{"meaning":"n.社论，期刊的社论","english":"editorial"}
+{"meaning":"a. 教育的,教育性的","english":"educational"}
+{"meaning":"adj. 柔弱的，缺乏勇气的","english":"effeminate"}
+{"meaning":"n. 功效,效力","english":"efficacy"}
+{"meaning":"a.效率高的，有能力的","english":"efficient"}
+{"meaning":"vi.(时间)过去，消逝","english":"elapse"}
+{"meaning":"n. 有选举权的人,选举人","english":"elector"}
+{"meaning":"a.电子的","english":"electronic"}
+{"meaning":"n. 灰烬,余烬","english":"ember"}
+{"meaning":"n. 卓越、杰出","english":"eminence"}
+{"meaning":"vt.强调，着重","english":"emphasize"}
+{"meaning":"vt. 授予权力,允许,使能够","english":"empower"}
+{"meaning":"n. 竞争，仿效","english":"emulation"}
+{"meaning":"vt. 环绕","english":"encircle"}
+{"meaning":"n. 鼓励,激励,奖励","english":"encouragement"}
+{"meaning":"n.百科全书","english":"encyclopaedia"}
+{"meaning":"n. 百科全书","english":"encyclopedia"}
+{"meaning":"vt. 使受喜爱","english":"endear"}
+{"meaning":"n.耐久力，持久力","english":"endurance"}
+{"meaning":"a.积极的；精力旺盛的","english":"energetic"}
+{"meaning":"n. 恳求，哀求","english":"entreaty"}
+{"meaning":"v. 委托，付托","english":"entrust"}
+{"meaning":"vt. 信赖,信托,交托","english":"intrust"}
+{"meaning":"v. 列举枚举","english":"enumerate"}
+{"meaning":"adj. 传染性的，流行性的","english":"epidemic"}
+{"meaning":"n. (长而重要的)书信","english":"epistle"}
+{"meaning":"n.方程(式)；等式","english":"equation"}
+{"meaning":"n.时代，年代；纪元","english":"era"}
+{"meaning":"a. 错误的,不正确的","english":"erroneous"}
+{"meaning":"v. (从远处等)突然看到","english":"espy"}
+{"meaning":"n. 判断,值计,尊重","english":"estimation"}
+{"meaning":"vt.使脱水vi.发散蒸气","english":"evaporate"}
+{"meaning":"n. 蒸发","english":"evaporation"}
+{"meaning":"a. 最后的,终于的,可能的","english":"eventual"}
+{"meaning":"vt. 逐出教会","english":"excommunicate"}
+{"meaning":"n. 遗嘱执行人","english":"executor"}
+{"meaning":"vt.发挥(威力)，施加","english":"exert"}
+{"meaning":"n. 努力，用力","english":"exertion"}
+{"meaning":"v. 呼出(气)","english":"exhale"}
+{"meaning":"n. 劝告，规劝","english":"exhortation"}
+{"meaning":"n.出口；退场 vi.退出","english":"exit"}
+{"meaning":"n. 预期者,期待者","english":"expectant"}
+{"meaning":"v. 花费，用光","english":"expend"}
+{"meaning":"n.(时间等)支出，消费","english":"expenditure"}
+{"meaning":"vt.使爆炸 vi.爆炸","english":"explode"}
+{"meaning":"n.爆炸，爆发，炸裂","english":"explosion"}
+{"meaning":"n.炸药 a.爆炸的","english":"explosive"}
+{"meaning":"n.说明，解释；陈列","english":"exposition"}
+{"meaning":"n.暴露；揭露；曝光","english":"exposure"}
+{"meaning":"a.外部的，外面的","english":"external"}
+{"meaning":"n. 狂喜,大悦,欢欣","english":"exultation"}
+{"meaning":"adj. 难以置信的，寓言里的","english":"fabulous"}
+{"meaning":"v. 使饥饿","english":"famish"}
+{"meaning":"n.农舍","english":"farmhouse"}
+{"meaning":"vi. 养肥","english":"fatten"}
+{"meaning":"n. 联邦,联合,联盟","english":"federation"}
+{"meaning":"n. 沼泽,沼池","english":"fen"}
+{"meaning":"n./v. 使发酵，骚动","english":"ferment"}
+{"meaning":"n. 发酵","english":"fermentation"}
+{"meaning":"n. 肥沃，丰饶","english":"fertility"}
+{"meaning":"adj. 热的，热烈的","english":"fervent"}
+{"meaning":"n.热烈，热情","english":"fervour"}
+{"meaning":"n. 热诚，热心","english":"fervor"}
+{"meaning":"n. 宿怨，不和","english":"feud"}
+{"meaning":"a. 封建制度的,封地的,领地的","english":"feudal"}
+{"meaning":"adj.发烧的","english":"feverish"}
+{"meaning":"n.细丝；长丝；灯丝","english":"filament"}
+{"meaning":"piety\tn. 孝心","english":"filial"}
+{"meaning":"n.坚固，坚定，稳固","english":"firmness"}
+{"meaning":"n.适当，恰当；健康","english":"fitness"}
+{"meaning":"vi.闪耀 vt.使闪亮","english":"flare"}
+{"meaning":"v. 闪烁，摇曳","english":"flicker"}
+{"meaning":"n. 丝棉,乱丝","english":"floss"}
+{"meaning":"n.兴奋，脸红；发烧","english":"flush"}
+{"meaning":"adj.多雾的；模糊的","english":"foggy"}
+{"meaning":"n. （牛马的）饲料，粮草v. 搜寻，翻寻","english":"forage"}
+{"meaning":"n. 远见","english":"foresight"}
+{"meaning":"n.公式，式","english":"formula"}
+{"meaning":"n. 坚毅，坚忍不拨","english":"fortitude"}
+{"meaning":"n. 指顶花","english":"foxglove"}
+{"meaning":"a.脆的；体质弱的","english":"fragile"}
+{"meaning":"adj. 疯狂的，狂乱的","english":"frantic"}
+{"meaning":"n. 同行，友爱","english":"fraternity"}
+{"meaning":"adj. 轻泛的，轻佻的","english":"frivolous"}
+{"meaning":"a. 节俭的,朴素的","english":"frugal"}
+{"meaning":"n. 真菌","english":"fungus"}
+{"meaning":"n. 船上的厨房","english":"galley"}
+{"meaning":"n.赌博 vt.冒\u2026的险","english":"gamble"}
+{"meaning":"n. 装束","english":"garb"}
+{"meaning":"n. 阁楼，顶楼","english":"garret"}
+{"meaning":"a.气体的，气态的","english":"gaseous"}
+{"meaning":"n. 沙布，薄纱","english":"gauze"}
+{"meaning":"vt.发生；引起；生殖","english":"generate"}
+{"meaning":"a. 有教养的,上流的,优雅的","english":"genteel"}
+{"meaning":"n. 非犹太人,异邦人,异教徒","english":"gentile"}
+{"meaning":"n. 贵族们","english":"gentry"}
+{"meaning":"a.地理的；地区(性)的","english":"geographical"}
+{"meaning":"n. 天竺葵","english":"geranium"}
+{"meaning":"n. 旋转物,轻便双轮马车,赛艇,","english":"gig"}
+{"meaning":"n. 镀金,表面的装饰,小母猪","english":"gilt"}
+{"meaning":"vi. 流浪","english":"gipsy"}
+{"meaning":"n. 吉布赛人,吉布赛语,","english":"gypsy"}
+{"meaning":"n. 光泽，注解","english":"gloss"}
+{"meaning":"adj. 光泽的，光滑的","english":"glossy"}
+{"meaning":"n.金匠","english":"gold-smith"}
+{"meaning":"n.高尔夫球","english":"golf"}
+{"meaning":"vt.&vi.急抓；抢","english":"grab"}
+{"meaning":"v. 嫁接，移植，n. 贪污","english":"graft"}
+{"meaning":"n. 壮丽，伟大","english":"grandeur"}
+{"meaning":"adj. 怪诞的，古怪的","english":"grotesque"}
+{"meaning":"n. 幼虫,穷文人","english":"grub"}
+{"meaning":"vi.作呼噜声；咕哝","english":"grunt"}
+{"meaning":"n. 外观,伪装","english":"guise"}
+{"meaning":"a.习惯性的，惯常的","english":"habitual"}
+{"meaning":"adj. 憔悴的，消瘦的","english":"haggard"}
+{"meaning":"adj. 毛发的，多毛的","english":"hairy"}
+{"meaning":"n. 吊床,小丘","english":"hammock"}
+{"meaning":"vt.妨碍，使不利","english":"handicap"}
+{"meaning":"v. 烦扰","english":"harass"}
+{"meaning":"n. 坚硬,困难,严厉,勇气","english":"hardness"}
+{"meaning":"n. 山楂","english":"hawthorn"}
+{"meaning":"n.听；听力","english":"hearing"}
+{"meaning":"a. 不注意的,不留心的,不谨慎的","english":"heedless"}
+{"meaning":"vt.加高，提高；增加","english":"heighten"}
+{"meaning":"n. 铁杉；常青树","english":"hemlock"}
+{"meaning":"n. 牧人","english":"herdsman"}
+{"meaning":"a. 世袭的,遗传的","english":"hereditary"}
+{"meaning":"n. 异端邪说","english":"heresy"}
+{"meaning":"n. 异教徒","english":"heretic"}
+{"meaning":"n. 青鱼,鲱","english":"herring"}
+{"meaning":"v. 搭便车，套住","english":"hitch"}
+{"meaning":"n. 忍冬,金银花","english":"honeysuckle"}
+{"meaning":"n.女主人；空姐","english":"hostess"}
+{"meaning":"n. 敌对状态，敌意","english":"hostility"}
+{"meaning":"n.外壳，豆荚；薄膜","english":"hull"}
+{"meaning":"a. 第一百的","english":"hundredth"}
+{"meaning":"adj.匈牙利的","english":"Hungarian"}
+{"meaning":"n. 猎人,管猎犬者","english":"huntsman"}
+{"meaning":"n.飓风，十二级风","english":"hurricane"}
+{"meaning":"n. 杂种，混血人","english":"hybrid"}
+{"meaning":"n. 卫生学，卫生的","english":"hygiene"}
+{"meaning":"vt.认出，识别，鉴定","english":"identify"}
+{"meaning":"n. 偶像崇拜,邪神崇拜,盲目的崇拜","english":"idolatry"}
+{"meaning":"n.仿制品，伪制物","english":"imitation"}
+{"meaning":"adj. 即将发生的，逼近的","english":"imminent"}
+{"meaning":"n. 性急,难耐,渴望,急躁,焦急","english":"impatience"}
+{"meaning":"v. 指摘，弹劾","english":"impeach"}
+{"meaning":"vi. 迫近,逼迫,悬挂","english":"impend"}
+{"meaning":"adj. 傲慢的，专横的","english":"imperious"}
+{"meaning":"adj. 冲动的，鲁莽的","english":"impetuous"}
+{"meaning":"vt.暗示，意指","english":"imply"}
+{"meaning":"a.给人印象深刻的","english":"impressive"}
+{"meaning":"a.不适当的；不合理的","english":"improper"}
+{"meaning":"ad.因为，由于","english":"inasmuch"}
+{"meaning":"a.无能力的；无资格的","english":"incapable"}
+{"meaning":"vt.结合，合并，收编","english":"incorporate"}
+{"meaning":"adj. 无可救药的","english":"incurable"}
+{"meaning":"a.无限期的","english":"indefinite"}
+{"meaning":"v. 切割成锯齿状","english":"indent"}
+{"meaning":"a.指示的；陈述的","english":"indicative"}
+{"meaning":"a.必不可少的，必需的","english":"indispensable"}
+{"meaning":"adj. 惰性的，行动迟钝的","english":"inert"}
+{"meaning":"adj. 不为所动的，坚决不变的","english":"inexorable"}
+{"meaning":"n. 传染,影响,传染病","english":"infection"}
+{"meaning":"vt.推论，推断；猜想","english":"infer"}
+{"meaning":"v. 骚扰，扰乱","english":"infest"}
+{"meaning":"n. 流行性感冒","english":"influenza"}
+{"meaning":"a. 非正式的,不拘礼的,通俗的","english":"informal"}
+{"meaning":"n. 忘恩负义","english":"ingratitude"}
+{"meaning":"a.创始的 n.第一步","english":"initiative"}
+{"meaning":"vt.注射；注满；喷射","english":"inject"}
+{"meaning":"n. 命令，强制令","english":"injunction"}
+{"meaning":"vt.输入 n.输入","english":"input"}
+{"meaning":"adj. 过份好问的，好奇的","english":"inquisitive"}
+{"meaning":"adj. 疯狂的","english":"insane"}
+{"meaning":"vt. 登记,铭记于,题写,雕刻","english":"inscribe"}
+{"meaning":"adj. 粗野的，无礼的","english":"insolent"}
+{"meaning":"n. 就职,装设,分期付款","english":"instalment"}
+{"meaning":"n.分期付款","english":"installment"}
+{"meaning":"ad.立即，即刻","english":"instantly"}
+{"meaning":"n.指导者，教员","english":"instructor"}
+{"meaning":"n.理智，智力，才智","english":"intellect"}
+{"meaning":"v. 埋葬","english":"inter"}
+{"meaning":"v. 中途拦截，截取","english":"intercept"}
+{"meaning":"a.国际的，世界(性)的","english":"international"}
+{"meaning":"vi.干涉，干预；播进","english":"intervene"}
+{"meaning":"n. 亲密，亲密的言行","english":"intimacy"}
+{"meaning":"a. 无法忍受的,难耐的","english":"intolerable"}
+{"meaning":"n. 侵入者,干扰者,妨碍者","english":"intruder"}
+{"meaning":"n. 私闯，干扰","english":"intrusion"}
+{"meaning":"n. 侵略者","english":"invader"}
+{"meaning":"adj. 无法抗拒的，无法抵抗的","english":"irresistible"}
+{"meaning":"vt.灌溉 vi.进行灌溉","english":"irrigate"}
+{"meaning":"n.堵塞 vt.使\u2026堵塞","english":"jam"}
+{"meaning":"v. 嘲笑","english":"jeer"}
+{"meaning":"vt.&vi.(使)丁当响","english":"jingle"}
+{"meaning":"adj. 有判断力的，明智的","english":"judicious"}
+{"meaning":"vt. 变戏法","english":"juggle"}
+{"meaning":"a. 多汁液的,生动的,多水分的","english":"juicy"}
+{"meaning":"n. 龙骨,平底船","english":"keel"}
+{"meaning":"n. 狗舍，狗窝","english":"kennel"}
+{"meaning":"vt. 揉,按摩,捏制","english":"knead"}
+{"meaning":"n.实验室","english":"laboratory"}
+{"meaning":"n. 迷宫","english":"labyrinth"}
+{"meaning":"n. 野兽的巢穴，躲藏处","english":"lair"}
+{"meaning":"adj. 令人惋惜的，悔恨的","english":"lamentable"}
+{"meaning":"n.地主；房东，店主","english":"landlord"}
+{"meaning":"n. 风景点；里程碑","english":"landmark"}
+{"meaning":"adj. 没精打采的，怠倦的","english":"languid"}
+{"meaning":"a.存在但看不见的","english":"latent"}
+{"meaning":"n. 薰衣草adj. 淡紫色的","english":"lavender"}
+{"meaning":"n. 普通信徒，门外汉","english":"layman"}
+{"meaning":"a. 叶茂盛的,多叶的,叶状的","english":"leafy"}
+{"meaning":"n. 水蛭,吸血鬼,榨取他人利益的人","english":"leech"}
+{"meaning":"n. 遗产，遗留之物","english":"legacy"}
+{"meaning":"adj. 合法的，正当的","english":"legitimate"}
+{"meaning":"n.豹","english":"leopard"}
+{"meaning":"vt.解放","english":"liberate"}
+{"meaning":"n.限制；限度，局限","english":"limitation"}
+{"meaning":"a.有限的","english":"limited"}
+{"meaning":"n. 亚麻子","english":"linseed"}
+{"meaning":"a. 不情愿的,勉强的","english":"loath"}
+{"meaning":" adj. = loath 不情愿的,勉强的","english":"loth"}
+{"meaning":"n.前厅，(剧院的)门廊","english":"lobby"}
+{"meaning":"n. 阁楼，顶楼","english":"loft"}
+{"meaning":"n. 枪眼,小窗,换气孔","english":"loophole"}
+{"meaning":"n. 摇篮曲","english":"lullaby"}
+{"meaning":"n. 疯子，adj. 极蠢的","english":"lunatic"}
+{"meaning":"adj. 繁茂的，肥沃的","english":"luxuriant"}
+{"meaning":"n. 权杖","english":"mace"}
+{"meaning":"n. 狂想，空想，怪念头","english":"maggot"}
+{"meaning":"n.魔法师；变戏法的人","english":"magician"}
+{"meaning":"a.磁的，有吸引力的","english":"magnetic"}
+{"meaning":"n.大陆","english":"mainland"}
+{"meaning":"n.扶养；坚持","english":"maintenance"}
+{"meaning":"n. 病,疾病,弊病","english":"malady"}
+{"meaning":"n. 疟疾,瘴气","english":"malaria"}
+{"meaning":"n.哺乳动物","english":"mammal"}
+{"meaning":"v. 撕成碎片，压碎","english":"mangle"}
+{"meaning":"a.体力的 n.手册","english":"manual"}
+{"meaning":"n. 金盏草属植物,金盏菊属植物","english":"marigold"}
+{"meaning":"a. 海的,海上的,海员的,沿海的","english":"maritime"}
+{"meaning":"n.火星；战争","english":"Mars"}
+{"meaning":"n. 殉教,殉难,殉节","english":"martyrdom"}
+{"meaning":"n.大屠杀，残杀","english":"massacre"}
+{"meaning":"a. 母亲的,母系的,母方的","english":"maternal"}
+{"meaning":"n.机械装置；机制","english":"mechanism"}
+{"meaning":"a. 值得纪念的,难忘的","english":"memorable"}
+{"meaning":"vt.&vi.&n.(进行)威胁","english":"menace"}
+{"meaning":"adj. 唯利是图的n. 雇佣兵","english":"mercenary"}
+{"meaning":"n.网眼，筛孔，网络","english":"mesh"}
+{"meaning":"a.金属的 n.金属粒子","english":"metallic"}
+{"meaning":"n. 变形，变态","english":"metamorphosis"}
+{"meaning":"a.显微镜的，微观的","english":"microscopic"}
+{"meaning":"n.正午，中午","english":"midday"}
+{"meaning":"n. 霉（因温湿而生）","english":"mildew"}
+{"meaning":"n.缩影 a.缩小的","english":"miniature"}
+{"meaning":"n.最小量 a.最小的","english":"minimum"}
+{"meaning":"a.较小的；较次要的","english":"minor"}
+{"meaning":"n.少数；少数民族","english":"minority"}
+{"meaning":"adj.奇迹般的","english":"miraculous"}
+{"meaning":"vt.使误入岐途","english":"mislead"}
+{"meaning":"n. 误用,滥用","english":"misuse"}
+{"meaning":"n. 壕沟，护城河","english":"moat"}
+{"meaning":"n. (单复数同)糖蜜","english":"molasses"}
+{"meaning":"adj. 单调的，无聊的","english":"monotonous"}
+{"meaning":"a. 纪念碑的,做为纪念的,不朽的","english":"monumental"}
+{"meaning":"n.道德，美德，品行","english":"morality"}
+{"meaning":"n. 小臼，乳钵，迫击炮","english":"mortar"}
+{"meaning":"v. 使屈辱，使痛心","english":"mortify"}
+{"meaning":"n.蚊子","english":"mosquito"}
+{"meaning":"n. 登山家,山地人","english":"mountaineer"}
+{"meaning":"v. 使声音降低，裹住","english":"muffle"}
+{"meaning":"n. 喃喃而语,咕哝","english":"mumble"}
+{"meaning":"a. 凶狠的,杀人的,致命的","english":"murderous"}
+{"meaning":"n.蘑菇，菌类植物","english":"mushroom"}
+{"meaning":"n. 步枪","english":"musket"}
+{"meaning":"a. 神秘的,奥秘的","english":"mystic"}
+{"meaning":"n. 催眠药adj. 催眠的","english":"narcotic"}
+{"meaning":"n.国籍；民族，族","english":"nationality"}
+{"meaning":"n. 出生，诞生","english":"nativity"}
+{"meaning":"n.博物学家","english":"naturalist"}
+{"meaning":"n. 航海家","english":"navigator"}
+{"meaning":"vt. 迫使,使成为必需,需要","english":"necessitate"}
+{"meaning":"n. 刺绣,缝纫","english":"needlework"}
+{"meaning":"a. 贫穷的,贫困的,生活艰苦的","english":"needy"}
+{"meaning":"vi.谈判，交涉，议定","english":"negotiate"}
+{"meaning":"n. 荨麻，v. 烦忧，激恼","english":"nettle"}
+{"meaning":"n.网状物；网络","english":"network"}
+{"meaning":"a.中立的；中性的","english":"neutral"}
+{"meaning":"v. 使无效，中和","english":"neutralize"}
+{"meaning":"n. 新来者","english":"newcomer"}
+{"meaning":"a. 第十九,十九分之一","english":"nineteenth"}
+{"meaning":"vt.提名，推荐；任命","english":"nominate"}
+{"meaning":"n.诺曼第人","english":"Norman"}
+{"meaning":"a. 在西北部的,西北方的,来自西北的","english":"northwestern"}
+{"meaning":"n. V字形刻痕，山间窄路","english":"notch"}
+{"meaning":"a.显而易见的；重要的","english":"noticeable"}
+{"meaning":"n. 生手，新手","english":"novice"}
+{"meaning":"ad.现今，现在","english":"nowadays"}
+{"meaning":"n.讨厌的东西","english":"nuisance"}
+{"meaning":"a. 无数的,无号数的","english":"numberless"}
+{"meaning":"n. 数字,数","english":"numeral"}
+{"meaning":"n. 营养","english":"nutrition"}
+{"meaning":"a. 橡木制的","english":"oaken"}
+{"meaning":"n. 遗忘","english":"oblivion"}
+{"meaning":"n.观察员，观测者","english":"observer"}
+{"meaning":"n. 倔强,顽固,固执","english":"obstinacy"}
+{"meaning":"v. 阻塞，截断","english":"obstruct"}
+{"meaning":"adv.显而易见地","english":"obviously"}
+{"meaning":"n. 占有者,居住者,占领者","english":"occupant"}
+{"meaning":"n. 长诗，颂歌","english":"ode"}
+{"meaning":"n. 征兆、预兆","english":"omen"}
+{"meaning":"adj. 预兆的、不祥的","english":"ominous"}
+{"meaning":"n.操作人员，接线员","english":"operator"}
+{"meaning":"n. 压迫者,压制者,暴君","english":"oppressor"}
+{"meaning":"a.口头的；口的","english":"oral"}
+{"meaning":"n.运行轨道 vt.环绕","english":"orbit"}
+{"meaning":"vi.发源 vt.首创","english":"originate"}
+{"meaning":"a.装饰的 n.装饰品","english":"ornamental"}
+{"meaning":"n.(战争、愤怒等)爆发","english":"outbreak"}
+{"meaning":"n. 呼叫；呐喊","english":"outcry"}
+{"meaning":"vt. 生存得比\u2026更久; 比\u2026更经久","english":"outlive"}
+{"meaning":"n.产量；输出量；输出","english":"output"}
+{"meaning":"adj. 粗暴的，无礼的","english":"outrageous"}
+{"meaning":"a. 陆路的,经过陆地的,陆上的","english":"overland"}
+{"meaning":"n.氧，氧气","english":"oxygen"}
+{"meaning":"n. 没有宗教信仰的人，异教徒","english":"pagan"}
+{"meaning":"n. 朝圣者,游方僧,毛虫","english":"palmer"}
+{"meaning":"n.小册子","english":"pamphlet"}
+{"meaning":"n.专门小组；面，板","english":"panel"}
+{"meaning":"vt.使麻痹，使瘫痪","english":"paralyse"}
+{"meaning":"v. 使瘫痪，使无效","english":"paralyze"}
+{"meaning":"n.游击队员","english":"partisan"}
+{"meaning":"a.被动的；消极的","english":"passive"}
+{"meaning":"n. 糕点，点心","english":"pastry"}
+{"meaning":"a.哀婉动人的；可怜的","english":"pathetic"}
+{"meaning":"n. 赞助，惠顾","english":"patronage"}
+{"meaning":"n.特性，独特性；怪癖","english":"peculiarity"}
+{"meaning":"n. （柱石或雕像的）基座","english":"pedestal"}
+{"meaning":"n. 毛皮. v. 投掷，（雨）猛降","english":"pelt"}
+{"meaning":"n.感觉；概念；理解力","english":"perception"}
+{"meaning":"adj. 有害的，致命的","english":"pernicious"}
+{"meaning":"a.垂直的 n.垂直(线)","english":"perpendicular"}
+{"meaning":"n. 困惑，茫然","english":"perplexity"}
+{"meaning":"adj. 固执的，坚持的","english":"persistent"}
+{"meaning":"adj. 能劝说的，善于游说的","english":"persuasive"}
+{"meaning":"v. 弥漫，普及","english":"pervade"}
+{"meaning":"v. 使堕落，滥用","english":"pervert"}
+{"meaning":"n. 长凳,座位","english":"pew"}
+{"meaning":"n. 法老王","english":"Pharaoh"}
+{"meaning":" adj. 『化学』 (五价) 磷的,含有磷的","english":"phosphoric"}
+{"meaning":"n. 天然色素，干粉颜料","english":"pigment"}
+{"meaning":"v. 绑住，束缚","english":"pinion"}
+{"meaning":"n. 尖塔，山峰","english":"pinnacle"}
+{"meaning":"n./v. （因自尊心受伤害而导致的)不悦、愤怒","english":"pique"}
+{"meaning":"n. 雌蕊","english":"pistil"}
+{"meaning":"n. 精髓，要点","english":"pith"}
+{"meaning":"n. 枢轴，中心v.旋转","english":"pivot"}
+{"meaning":"adj. 可怜的，伤心的","english":"plaintive"}
+{"meaning":"n./adj. 平民，平民的","english":"plebeian"}
+{"meaning":"prep.加","english":"plus"}
+{"meaning":"vt.戳，刺；伸(头等)","english":"poke"}
+{"meaning":"n.政治家；政客","english":"politician"}
+{"meaning":"n.污染","english":"pollution"}
+{"meaning":"n.通俗性；普及，流行","english":"popularity"}
+{"meaning":"adj. 人口稠密的，人民多的","english":"populous"}
+{"meaning":"n.海报，招贴","english":"poster"}
+{"meaning":"n. 姿势,态度,情形,形势","english":"posture"}
+{"meaning":"n. 陶工,陶器匠,陶艺家","english":"potter"}
+{"meaning":"adj. 危险的","english":"precarious"}
+{"meaning":"n.预防；警惕","english":"precaution"}
+{"meaning":"n.精确，精密，精密度","english":"precision"}
+{"meaning":"n.预言，预告；预报","english":"prediction"}
+{"meaning":"n.序言，前言，引语","english":"preface"}
+{"meaning":"n. 特权","english":"prerogative"}
+{"meaning":"n.介绍；赠送；呈现","english":"presentation"}
+{"meaning":"n.保存，储藏；保持","english":"preservation"}
+{"meaning":"a. 总统的,首长的,支配的,统辖的,","english":"presidential"}
+{"meaning":"n. 假定，冒昧","english":"presumption"}
+{"meaning":"n.预防，阻止，妨碍","english":"prevention"}
+{"meaning":"n. 报春花,樱草花,樱草色","english":"primrose"}
+{"meaning":"adj. 王子的，慷慨的","english":"princely"}
+{"meaning":"n.公国,领地,封邑","english":"principality"}
+{"meaning":"n.可能性；概率","english":"probability"}
+{"meaning":"adj. 挥霍的，n. 挥霍者","english":"prodigal"}
+{"meaning":"a.生产的；丰饶的","english":"productive"}
+{"meaning":"v. 献出，赠送，n. 提议，建议","english":"proffer"}
+{"meaning":"adj. 很多的，浪费的","english":"profuse"}
+{"meaning":"n. 后代，子女","english":"progeny"}
+{"meaning":"n. 突出物","english":"projection"}
+{"meaning":"adj. 多产的，多结果的","english":"prolific"}
+{"meaning":"n. 原形质","english":"protoplasm"}
+{"meaning":"n. 普鲁士","english":"Prussia"}
+{"meaning":"v. 刺探，打听，撬开","english":"pry"}
+{"meaning":"n. 蛹","english":"pupa"}
+{"meaning":"n. 教友派信徒","english":"Quaker"}
+{"meaning":"n.资格；限制条件","english":"qualification"}
+{"meaning":"a. 喜欢吵架的,好争论的,怒气冲冲的","english":"quarrelsome"}
+{"meaning":"n. 调查表,问卷,调查表","english":"questionnaire"}
+{"meaning":"n. 奎宁","english":"quinine"}
+{"meaning":"n. 乌合之众，暴民，下等人","english":"rabble"}
+{"meaning":"n. 发光，喜悦","english":"radiance"}
+{"meaning":"n.半径距离；界限","english":"radius"}
+{"meaning":"n. 木排；木筏","english":"raft"}
+{"meaning":"n.袭击；突然搜查","english":"raid"}
+{"meaning":"n.&vt.&vi.(重新)集合","english":"rally"}
+{"meaning":"vi.闲逛，漫步；聊天","english":"ramble"}
+{"meaning":"vt. 认可；批准","english":"ratify"}
+{"meaning":"n. 破坏,蹂躏","english":"ravage"}
+{"meaning":"n. 收割者","english":"reaper"}
+{"meaning":"vi. 再出现","english":"reappear"}
+{"meaning":"v. 使安心，安慰","english":"reassure"}
+{"meaning":"v. 断然拒绝","english":"rebuff"}
+{"meaning":"a.粗心大意的；鲁莽的","english":"reckless"}
+{"meaning":"n.认出，识别；重视","english":"recognition"}
+{"meaning":"n.重获；痊愈，恢复","english":"recovery"}
+{"meaning":"a. 矩形的，长方形的","english":"rectangular"}
+{"meaning":"n. 改革,改正,改善","english":"reformation"}
+{"meaning":"n.拒绝","english":"refusal"}
+{"meaning":"n. 摄政者（代国王统治者）","english":"regent"}
+{"meaning":"vt.增援，支援；加强","english":"reinforce"}
+{"meaning":"v. 重申，反复地说","english":"reiterate"}
+{"meaning":"n.关系，联系","english":"relationship"}
+{"meaning":"v. 重建，改变形状","english":"remodel"}
+{"meaning":"n.移动；迁移；除掉","english":"removal"}
+{"meaning":"n. 餐,食量,就餐","english":"repast"}
+{"meaning":"n.爬行动物；两栖动物","english":"reptile"}
+{"meaning":"v./n. 驱逐，击退，厌恶","english":"repulse"}
+{"meaning":"n.相似，相似性","english":"resemblance"}
+{"meaning":"n. 憎恨","english":"resentment"}
+{"meaning":"n. 水库","english":"reservoir"}
+{"meaning":"n.听从，屈从，顺从","english":"resignation"}
+{"meaning":"n.责任，责任心；职责","english":"responsibility"}
+{"meaning":"n.限制，限定，约束","english":"restriction"}
+{"meaning":"n.退休，引退；退隐","english":"retirement"}
+{"meaning":"n. 狂欢","english":"revelry"}
+{"meaning":"vi. 恢复,复归,回复","english":"revert"}
+{"meaning":"n. 修辞学，浮夸的言语","english":"rhetoric"}
+{"meaning":"n. 犀牛","english":"rhinoceros"}
+{"meaning":"a. 合法的,正直的,当然的","english":"rightful"}
+{"meaning":"n. （西瓜等）外皮","english":"rind"}
+{"meaning":"n. 铆钉v. 吸引（注意力）","english":"rivet"}
+{"meaning":"n.例行公事 a.日常的","english":"routine"}
+{"meaning":"n. 基本原理","english":"rudiment"}
+{"meaning":"n. 逃走的人,逃亡,亡命者","english":"runaway"}
+{"meaning":"a. 枯叶色的,红褐色的,手织的","english":"russet"}
+{"meaning":"a.无情的，冷酷的","english":"ruthless"}
+{"meaning":"n.保护措施；护照","english":"safeguard"}
+{"meaning":"n. 聪慧，洞察力","english":"sagacity"}
+{"meaning":"n. 火蜥蜴,火怪,耐火的人","english":"salamander"}
+{"meaning":"n. 唾液，口水","english":"saliva"}
+{"meaning":"n. 神圣,尊严,圣洁","english":"sanctity"}
+{"meaning":"n. 沙岩","english":"sandstone"}
+{"meaning":"adj. 神志清楚的，明智的","english":"sane"}
+{"meaning":"adj. 充满希望的，乐观的","english":"sanguine"}
+{"meaning":"n. （公共）卫生","english":"sanitation"}
+{"meaning":"n. 树苗，年轻人","english":"sapling"}
+{"meaning":"n. 好色之徒,森林之神","english":"satyr"}
+{"meaning":"n. 撒克逊人","english":"Saxon"}
+{"meaning":"v. 烫，用沸水消毒n. 烫伤","english":"scald"}
+{"meaning":"n.缺乏，不足，萧条","english":"scarcity"}
+{"meaning":"n. 恶棍","english":"scoundrel"}
+{"meaning":"n. 皱眉，怒视，愁容","english":"scowl"}
+{"meaning":"vi.发尖叫声","english":"screech"}
+{"meaning":"n. 雕刻家","english":"sculptor"}
+{"meaning":"v. 急赶、疾走，逃辟","english":"scuttle"}
+{"meaning":"n. 大镰刀","english":"scythe"}
+{"meaning":"n.海员，水手；水兵","english":"seaman"}
+{"meaning":"n. 海岸,海滨","english":"seashore"}
+{"meaning":"n.海滨(胜地)；海边","english":"seaside"}
+{"meaning":"n. 朝海的方向","english":"seaward"}
+{"meaning":"n. 保密","english":"secrecy"}
+{"meaning":"n. 分泌,分泌物,分泌液","english":"secretion"}
+{"meaning":"adj. 世俗的、尘世的","english":"secular"}
+{"meaning":"n. 蓑衣草","english":"sedge"}
+{"meaning":"n. 幼苗","english":"seedling"}
+{"meaning":"n. 预言者,先知,幻想家","english":"seer"}
+{"meaning":"v. 沸腾，汹涌","english":"seethe"}
+{"meaning":"n.卖者；行销货","english":"seller"}
+{"meaning":"a. 多愁善感的","english":"sentimental"}
+{"meaning":"n.连续，继续；次序","english":"sequence"}
+{"meaning":"n.农奴","english":"serf"}
+{"meaning":"n. 斜纹哔叽布料","english":"serge"}
+{"meaning":"n.警士；军士","english":"sergeant"}
+{"meaning":"a. 性的,性别的","english":"sexual"}
+{"meaning":"a.纯粹的；全然的","english":"sheer"}
+{"meaning":"n. 木瓦，屋顶板","english":"shingle"}
+{"meaning":"n. 浅滩、浅水处，一群（鱼）","english":"shoal"}
+{"meaning":"n.捷径","english":"short cut"}
+{"meaning":"v. 切成细条，撕成碎片","english":"shred"}
+{"meaning":"n. 泼妇,一种似鼠的动物名","english":"shrew"}
+{"meaning":"vt.&vi.耸(肩) n.耸肩","english":"shrug"}
+{"meaning":"v. 拖步走，支吾，洗牌","english":"shuffle"}
+{"meaning":"n. 印,图章","english":"signet"}
+{"meaning":"n.有意义的；重要的","english":"significant"}
+{"meaning":"n. 直喻，明喻","english":"simile"}
+{"meaning":"n.汽笛，警报器","english":"siren"}
+{"meaning":"n.起居室","english":"sitting-room"}
+{"meaning":"n. 六便士银币,六便士","english":"sixpence"}
+{"meaning":"num. 第十六,十六分之一","english":"sixteenth"}
+{"meaning":"vt.vi. 猛砍,乱砍","english":"slash"}
+{"meaning":"Adj.斯拉夫人的","english":"Slav"}
+{"meaning":"n. 睡眠者,枕木,卧铺","english":"sleeper"}
+{"meaning":"n. 黏液","english":"slime"}
+{"meaning":"n. 懒惰，树懒（一种动物）","english":"sloth"}
+{"meaning":"n. 油渍，污点v. 弄脏，玷污","english":"smear"}
+{"meaning":"v. 鬼鬼祟祟而行，偷窃","english":"sneak"}
+{"meaning":"n.(计算机的)软件","english":"software"}
+{"meaning":"n. 初级律师","english":"solicitor"}
+{"meaning":"a.可溶的；可以解决的","english":"soluble"}
+{"meaning":"ad.由于某种原因","english":"somehow"}
+{"meaning":"n. 男巫士,魔术师","english":"sorcerer"}
+{"meaning":"n. 巫术，魔法","english":"sorcery"}
+{"meaning":"adj. 卑鄙的，肮脏的","english":"sordid"}
+{"meaning":"vi.成为\u2026专家；专攻","english":"specialize"}
+{"meaning":"n. 思索，推测，投机","english":"speculation"}
+{"meaning":"a. 投机的","english":"speculative"}
+{"meaning":"adj. 不会说话的","english":"speechless"}
+{"meaning":"a. 针的,尖刺的,尖刺状突起的,","english":"spinal"}
+{"meaning":"n. 脊椎","english":"spine"}
+{"meaning":"a.自发的；本能的","english":"spontaneous"}
+{"meaning":"vt.压碎 n.鲜果汁","english":"squash"}
+{"meaning":"n.稳定，稳定性，巩固","english":"stability"}
+{"meaning":"adj. 稳重的，沉着的","english":"staid"}
+{"meaning":"n. 淀粉,浆糊,刻板","english":"starch"}
+{"meaning":"n. 饥饿,饿死","english":"starvation"}
+{"meaning":"adj. 坚定的，忠诚的v. 止血","english":"staunch"}
+{"meaning":"ad.稳定地，不变地","english":"steadily"}
+{"meaning":"n. 秘密行动,秘密,鬼祟","english":"stealth"}
+{"meaning":"n.立体声 a.立体声的","english":"stereo"}
+{"meaning":"n. 英国货币,标准纯银","english":"sterling"}
+{"meaning":"vt.使硬；使僵硬","english":"stiffen"}
+{"meaning":"n. 耻辱,污名,烙印","english":"stigma"}
+{"meaning":"n. 墙两边的阶梯","english":"stile"}
+{"meaning":"n. 刺激，激励（复：stimuli）","english":"stimulus"}
+{"meaning":"n. 宝库，见识广博之人","english":"storehouse"}
+{"meaning":"n. 图钉,装饰钮扣,种马,领扣,大头钉","english":"stud"}
+{"meaning":"v. 使昏迷，使发愣","english":"stun"}
+{"meaning":"adj.巨大的，大得惊人的","english":"stupendous"}
+{"meaning":"n. 征服，服从，隶属","english":"subjection"}
+{"meaning":"n. 签署者,捐献者,订户","english":"subscriber"}
+{"meaning":"v. （建筑物等）下陷，（天气等）平息，平静","english":"subside"}
+{"meaning":"vt. 供给食物,供养","english":"subsist"}
+{"meaning":"n. 狡猾，微妙（的感情）","english":"subtlety"}
+{"meaning":"adj. 郊外的，市郊的","english":"suburban"}
+{"meaning":"vt. 哺乳,养育,吮吸","english":"suckle"}
+{"meaning":"n. 回教君主,苏丹,土耳其皇帝","english":"sultan"}
+{"meaning":"各式各样，各种的","english":"sundry"}
+{"meaning":"a.超声的，超声速的","english":"supersonic"}
+{"meaning":"v. 排挤，取代","english":"supplant"}
+{"meaning":"n. 恳求,哀求,祈愿","english":"supplication"}
+{"meaning":"n. 支持者,后盾,伴随者","english":"supporter"}
+{"meaning":"n.外科，外科手术","english":"surgery"}
+{"meaning":"n./v. 推测，猜测","english":"surmise"}
+{"meaning":"n.周围的事物，环境","english":"surroundings"}
+{"meaning":"adj.易受影响的，多情的","english":"susceptible"}
+{"meaning":"n. 清扫夫","english":"sweeper"}
+{"meaning":"n. 小无花果树,枫树的一种","english":"sycamore"}
+{"meaning":"a.同情的；和谐的","english":"sympathetic"}
+{"meaning":"a. 具有征候的,症状的,根据征候的","english":"symptomatic"}
+{"meaning":"n. 牛脂,动物脂","english":"tallow"}
+{"meaning":"vt.使缠结，使纠缠","english":"tangle"}
+{"meaning":"n.油船；空中加油飞机","english":"tanker"}
+{"meaning":"n.靶，标的；目标","english":"target"}
+{"meaning":"a. 黄褐色的,茶色的","english":"tawny"}
+{"meaning":"n.望远镜","english":"telescope"}
+{"meaning":"n.电传，用户电报","english":"telex"}
+{"meaning":"adj. 时间的，世俗的","english":"temporal"}
+{"meaning":"n. 结束；中止","english":"termination"}
+{"meaning":"n.恐怖分子","english":"terrorist"}
+{"meaning":"n. 茅草屋顶，茅草","english":"thatch"}
+{"meaning":"n. 神学，宗教","english":"theology"}
+{"meaning":"ad.此后，以后","english":"thereafter"}
+{"meaning":"num. 第三十,三十分之一","english":"thirtieth"}
+{"meaning":"a. 有刺的","english":"thorny"}
+{"meaning":"v. 给\u2026\u2026染色","english":"tinge"}
+{"meaning":"vi. 兴奋,激动,感到刺痛,抖动","english":"tingle"}
+{"meaning":"n.薄绢；薄纸；组织","english":"tissue"}
+{"meaning":"a. 可容忍的,可以的","english":"tolerable"}
+{"meaning":"adj. 酷热的","english":"torrid"}
+{"meaning":"n.旅游者，观光者","english":"tourist"}
+{"meaning":"n. 镇区","english":"township"}
+{"meaning":"vt. 办理,处理,执行","english":"transact"}
+{"meaning":"n.变化；改造；转变","english":"transformation"}
+{"meaning":"n. 经过,通行,转变,运输线,运输","english":"transit"}
+{"meaning":"n.翻译；译文，译本","english":"translation"}
+{"meaning":"n. 论文","english":"treatise"}
+{"meaning":"n. 最高音部,三倍","english":"treble"}
+{"meaning":"n. 法庭，裁判所","english":"tribunal"}
+{"meaning":"vi.滴，淌 n.滴；细流","english":"trickle"}
+{"meaning":"n. 三倍之数,三个一组","english":"triple"}
+{"meaning":"a. 胜利的,凯旋的","english":"triumphal"}
+{"meaning":"n. 受托人,理事","english":"trustee"}
+{"meaning":"n.金枪鱼","english":"tuna"}
+{"meaning":"n. 斜纹软呢,斜纹软呢服","english":"tweed"}
+{"meaning":"adj. 未破的,完整的,完好的","english":"unbroken"}
+{"meaning":"a. 不寻常的,不凡的,罕有的","english":"uncommon"}
+{"meaning":"a. 不关心的","english":"unconcerned"}
+{"meaning":"vt.低估，看轻","english":"underestimate"}
+{"meaning":"a. 无疑的,确实的","english":"undoubted"}
+{"meaning":"vt.使脱衣服vi.脱衣服","english":"undress"}
+{"meaning":"n. 不舒适,不安,局促","english":"uneasiness"}
+{"meaning":"a. 未完成的","english":"unfinished"}
+{"meaning":"adj. 不留神的，没有防备的","english":"unguarded"}
+{"meaning":"n. 调和,和谐,齐奏,齐唱,一致","english":"unison"}
+{"meaning":"a.无限的；不定的","english":"unlimited"}
+{"meaning":"vt.从...卸下货物","english":"unload"}
+{"meaning":"a. 不动摇的,坚决的,冷静的","english":"unmoved"}
+{"meaning":"a. 无利益的,不赚钱的,不上算的","english":"unprofitable"}
+{"meaning":"adj. 粗野的，无法无天的","english":"unruly"}
+{"meaning":"a. 不安全的,不安稳的,危险的","english":"unsafe"}
+{"meaning":"a. 过时的","english":"untimely"}
+{"meaning":"a. 不适合健康的,有害身体的,腐败的","english":"unwholesome"}
+{"meaning":"n. 丘陵地,高地,丘阜","english":"upland"}
+{"meaning":"n.使用，对待；惯用法","english":"usage"}
+{"meaning":"vt.利用","english":"utilize"}
+{"meaning":"n. 浪荡子，流浪者，adj. 流浪的","english":"vagabond"}
+{"meaning":"n. 风向标,风信旗,变化不定的事物","english":"vane"}
+{"meaning":"n. 优势,有利情况","english":"vantage"}
+{"meaning":"a.易变的 n.变量","english":"variable"}
+{"meaning":"v. 吹嘘，炫耀","english":"vaunt"}
+{"meaning":"adj. 猛烈的，强烈的","english":"vehement"}
+{"meaning":"n. 毒液，恶毒，痛恨","english":"venom"}
+{"meaning":"n. 通风孔；出口","english":"ventilation"}
+{"meaning":"n. 判决，决定","english":"verdict"}
+{"meaning":"n. 翠绿,新绿,新鲜,精力旺盛","english":"verdure"}
+{"meaning":"vt.证实，查证；证明","english":"verify"}
+{"meaning":"n. (生)退化器官；痕迹,残余，遗迹","english":"vestige"}
+{"meaning":"vt.使颤动 vi.颤动","english":"vibrate"}
+{"meaning":"n. 变化,变迁,荣枯,盛衰","english":"vicissitude"}
+{"meaning":"n.村子里的居民","english":"villager"}
+{"meaning":"n. 坏事,恶行,罪恶","english":"villainy"}
+{"meaning":"n. 群射,齐发,迸发","english":"volley"}
+{"meaning":"vt. 吐出,呕吐","english":"vomit"}
+{"meaning":"n. 晶片,圆片,薄饼,干胶片","english":"wafer"}
+{"meaning":"n./v. （猪等）在泥水中打滚，沉溺于","english":"wallow"}
+{"meaning":"n. 流浪者,徘徊者","english":"wanderer"}
+{"meaning":"a. 小心的,机警的,周到的,唯恐的","english":"wary"}
+{"meaning":"a.不透水的，防水的","english":"waterproof"}
+{"meaning":"n. 断奶，戒掉","english":"wean"}
+{"meaning":"adj. 古怪的，荒唐的","english":"weird"}
+{"meaning":"vt.&n.焊接，熔接","english":"weld"}
+{"meaning":"n.码头，停泊所","english":"wharf"}
+{"meaning":"a.无论哪个，无论哪些","english":"whichever"}
+{"meaning":"n.髯，连鬓胡子","english":"whisker"}
+{"meaning":"vt.加宽 vi.变宽","english":"widen"}
+{"meaning":"n. 诡计，花言巧语","english":"wile"}
+{"meaning":"v. 避开，畏缩","english":"wince"}
+{"meaning":"a. 金属线制的,铁丝似的,瘦长结实的","english":"wiry"}
+{"meaning":"a. 渴望的,想望的","english":"wistful"}
+{"meaning":"v. 争论，激辩，吵架","english":"wrangle"}
+{"meaning":"n.可怜，不幸，潦倒","english":"wretchedness"}
+{"meaning":"n. 静电印刷法","english":"xerography"}
+{"meaning":"vt.&vi.用静电复印","english":"Xerox"}
+{"meaning":"vi. 狺吠；叫喊","english":"yelp"}
+{"meaning":"n.从前,往昔","english":"yore"}
+{"meaning":"n. 天顶，极点","english":"zenith"}
+{"meaning":"n. 十二宫图,黄道带","english":"zodiac"}
