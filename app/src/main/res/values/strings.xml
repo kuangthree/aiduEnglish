@@ -3,4 +3,8 @@
     <string name="daily_passage">每日文章</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="library">文库</string>
+    <string name="dictionary">词典</string>
+    <string name="collection">收藏</string>
+    <string name="customize_read">自定义阅读</string>
 </resources>

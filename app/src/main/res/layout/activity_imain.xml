@@ -47,6 +47,7 @@
             android:weightSum="2"
             android:orientation="horizontal">
             <Button
+                android:text="@string/library"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
                 android:layout_weight="1"
@@ -57,6 +58,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_height="match_parent"/>
             <Button
+                android:text="@string/dictionary"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
                 android:layout_weight="1"
@@ -72,6 +74,7 @@
             android:layout_height="100dp"
             android:orientation="horizontal">
             <Button
+                android:text="@string/collection"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
                 android:layout_weight="1"
@@ -82,6 +85,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_height="match_parent"/>
             <Button
+                android:text="@string/customize_read"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
                 android:layout_weight="1"
