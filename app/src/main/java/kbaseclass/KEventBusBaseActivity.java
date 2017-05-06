@@ -13,7 +13,15 @@ import org.greenrobot.eventbus.ThreadMode;
 
 abstract public class KEventBusBaseActivity extends KBaseActivity {
 
-    public class ExitAppEvent{}
+    public class ExitAppEvent{
+        public final int code;
+        public ExitAppEvent(){
+            code=0;
+        }
+        public ExitAppEvent(int code){
+            this.code = code;
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         EventBus.getDefault().register(this);
@@ -28,7 +36,7 @@ abstract public class KEventBusBaseActivity extends KBaseActivity {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onExitAppEvent(ExitAppEvent e){
-        log_d("activity finish with ExitAppEvent");
+        log_d("activity finish with ExitAppEvent"+e.code);
         finish();
     }
 }

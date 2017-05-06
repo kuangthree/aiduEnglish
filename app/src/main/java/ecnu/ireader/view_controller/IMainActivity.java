@@ -4,6 +4,9 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import org.greenrobot.eventbus.EventBus;
+
 import butterknife.BindView;
 import ecnu.ireader.R;
 import kbaseclass.KEventBusBaseActivity;
@@ -61,6 +64,18 @@ public class IMainActivity extends KEventBusBaseActivity implements View.OnClick
     public void onClick(View v){
         switch (v.getId()){
             case R.id.main_col_bt:
+                startActivity(CollectionActivity.class);
+                break;
+            case R.id.main_cus_bt:
+                startActivity(CustomizeReadActivity.class);
+                break;
+            case R.id.main_dic_bt:
+                startActivity(DictionaryActivity.class);
+                break;
+            case R.id.main_lib_bt:
+                startActivity(LibraryActivity.class);
+                break;
+            case R.id.main_setting_bt:
                 break;
         }
     }
