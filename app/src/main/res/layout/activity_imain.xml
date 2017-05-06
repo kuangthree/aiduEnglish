@@ -18,12 +18,19 @@
             android:layout_height="match_parent"
             android:src="@drawable/book_icon"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:text="@string/app_name"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:gravity="center_vertical"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:background="@android:color/transparent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_setting_bt"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_settings_black_36dp"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
@@ -47,6 +54,7 @@
             android:weightSum="2"
             android:orientation="horizontal">
             <Button
+                android:id="@+id/main_lib_bt"
                 android:text="@string/library"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
@@ -58,6 +66,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_height="match_parent"/>
             <Button
+                android:id="@+id/main_dic_bt"
                 android:text="@string/dictionary"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
@@ -74,6 +83,7 @@
             android:layout_height="100dp"
             android:orientation="horizontal">
             <Button
+                android:id="@+id/main_col_bt"
                 android:text="@string/collection"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"
@@ -85,6 +95,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_height="match_parent"/>
             <Button
+                android:id="@+id/main_cus_bt"
                 android:text="@string/customize_read"
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:background="@android:color/darker_gray"

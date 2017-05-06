@@ -10,15 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".view_controller.IMainActivity">
-
         </activity>
-
         <activity android:name=".view_controller.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".view_controller.LibraryActivity">
+        </activity>
+        <activity android:name=".view_controller.DictionaryActivity">
+        </activity>
+        <activity android:name=".view_controller.CollectionActivity">
+        </activity>
+        <activity android:name=".view_controller.CustomizeReadActivity">
+        </activity>
+        <activity android:name=".view_controller.WordActivity">
+        </activity>
+        <activity android:name=".view_controller.ReadActivity">
         </activity>
     </application>
 
