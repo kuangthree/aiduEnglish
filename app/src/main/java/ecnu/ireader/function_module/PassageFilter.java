@@ -1,8 +1,12 @@
 package ecnu.ireader.function_module;
 
+import android.content.Context;
+import android.text.Spannable;
 import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import ecnu.ireader.model.Passage;
 import ecnu.ireader.model.Word;
@@ -51,9 +55,10 @@ public class PassageFilter {
 
     private int mMode = MODE_ANNO;
     private OnWordClickListener mListener = null;
+    private Dictionary mDictionary = null;
 
-    public PassageFilter(){
-
+    public PassageFilter(Context context){
+        mDictionary = Dictionary.getInstance(context);
     }
 
     public PassageFilter setMode(int mode){
@@ -70,18 +75,21 @@ public class PassageFilter {
     }
 
     public FilteredPassage filter(Passage passage){
-        switch (mMode){
-            case MODE_ANNO:
-                return addAnnotation(passage);
-            case MODE_CLICK:
-                return addLink(passage);
-            default:
-                throw new RuntimeException("Error mode param for PassageFilter.");
-        }
+
+        return null;
     }
 
     private FilteredPassage addAnnotation(Passage passage){
-        //TODO:给文章加注释
+        SpannableStringBuilder ssb = new SpannableStringBuilder();
+        Scanner scanner = new Scanner(passage.getContent());
+        while (scanner.hasNextLine()){
+            String s = scanner.nextLine();
+            Scanner innerScanner = new Scanner(s);
+            while (innerScanner.hasNext()){
+                String w = removePunctuation(innerScanner.next());
+                Word[] ws= mDictionary.searchSimilarWord(w);
+            }
+        }
         return null;
     }
 
@@ -90,4 +98,11 @@ public class PassageFilter {
         return null;
     }
 
+    private static String removePunctuation(String word){
+        char c = word.charAt(word.length()-1);
+        if(!((c>='a' && c<='z') || (c>='A' && c<='Z') || c == '\'')){
+            return word.substring(0,word.length()-1);
+        }
+        return word;
+    }
 }

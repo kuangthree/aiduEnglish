@@ -1,6 +1,7 @@
 package ecnu.ireader.function_module;
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import org.greenrobot.eventbus.EventBus;
@@ -10,6 +11,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import ecnu.ireader.model.Word;
 
 
 /**
@@ -21,17 +26,19 @@ public class Dictionary extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "word_database.db";
     private static final int DB_VERSION = 1;
-    private static final String LEVEL_ZK = "中考";
-    private static final String LEVEL_GK = "高考";
-    private static final String LEVEL_4 = "四级";
-    private static final String LEVEL_6 = "六级";
-    private static final String LEVEL_8 = "八级";
+    public static final String LEVEL_ZK = "中考";
+    public static final String LEVEL_GK = "高考";
+    public static final String LEVEL_4 = "四级";
+    public static final String LEVEL_6 = "六级";
+    public static final String LEVEL_8 = "八级";
 
     private static final String FILE_LEVEL_ZK = "w_mid.txt";
     private static final String FILE_LEVEL_GK = "w_high.txt";
     private static final String FILE_LEVEL_4 = "w_four.txt";
     private static final String FILE_LEVEL_6 = "w_six.txt";
     private static final String FILE_LEVEL_8 = "w_eight.txt";
+
+    private enum Level{中考, 高考, 四级, 六级, 八级}
 
     public static class LoadCompleteEvent{
 
@@ -92,7 +99,66 @@ public class Dictionary extends SQLiteOpenHelper {
             e.printStackTrace();
         }
     }
+    public Word[] searchWordWithPrefix(String prefix){
+        Cursor cursor = getReadableDatabase()
+                .rawQuery("SELECT * FROM words " +
+                        "WHERE english LIKE ?",new String[]{prefix+"%"});
+        Word[] ret = cursorToWordArray(cursor);
+        cursor.close();
+        return ret;
+    }
+    public Word searchAccurateWord(String word){
+        Cursor cursor = getReadableDatabase()
+                .rawQuery("SELECT * FROM words " +
+                        "WHERE english = ?",new String[]{word});
+        Word[] ret = cursorToWordArray(cursor);
+        cursor.close();
+        if(ret.length==0)return null;
+        return ret[0];
+    }
+    public boolean isInLevel(String word,String level){
+        Word[] words = searchSimilarWord(word);
+        int o = 6;
+        for(Word w :words){
+            int i = Level.valueOf(w.getLevel()).ordinal();
+            if(i<o){
+                o = i;
+            }
+        }
+        return Level.valueOf(level).ordinal()>=o;
+    }
+    public Word[] searchSimilarWord(String word){
+        Word w = searchAccurateWord(word);
+        if(w != null)return new Word[]{w};
+        if( word.length() > 3 ){
+            Cursor cursor = getReadableDatabase()
+                    .rawQuery("SELECT * FROM words WHERE (english like ?) OR (english like ?) OR (english like ?) SORT BY english",new String[]{word+"%",
+                            wordCutTail(word,1)+"%",
+                            wordCutTail(word,2)+"%"});
+            Word[] ret = cursorToWordArray(cursor);
+            cursor.close();
+            return ret;
+        } else {
+            return new Word[]{};
+        }
+    }
 
+    private static String wordCutTail(String word,int n){
+        return word.substring(0,word.length()-n);
+    }
+
+    private static Word[] cursorToWordArray(Cursor cursor){
+        if(!cursor.moveToFirst())return new Word[0];
+        ArrayList<Word> words = new ArrayList<>();
+        do{
+            words.add(new Word(
+                    cursor.getString(cursor.getColumnIndex("english")),
+                    cursor.getString(cursor.getColumnIndex("meaning")),
+                    cursor.getString(cursor.getColumnIndex("level"))
+            ));
+        }while (cursor.moveToNext());
+        return words.toArray(new Word[words.size()]);
+    }
     private void loadLevel(String level, String fileName,SQLiteDatabase db)
             throws IOException,JSONException{
         InputStream is = mContext.getAssets().open(fileName);
@@ -116,7 +182,6 @@ public class Dictionary extends SQLiteOpenHelper {
         cv.put("meaning",json.getString("meaning"));
         return cv;
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
         onCreate(db);
