@@ -1,8 +1,20 @@
 package ecnu.ireader.view_controller;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import butterknife.BindView;
 import ecnu.ireader.R;
+import ecnu.ireader.model.Passage;
 import kbaseclass.KEventBusBaseActivity;
 
-public class CustomizeReadActivity extends KEventBusBaseActivity {
+public class CustomizeReadActivity extends KEventBusBaseActivity implements View.OnClickListener {
+
+    @BindView(R.id.cus_edit)
+    EditText mEditText;
+
+    @BindView(R.id.cus_button)
+    Button mButton;
 
     @Override
     protected int getContentViewId() {
@@ -11,7 +23,12 @@ public class CustomizeReadActivity extends KEventBusBaseActivity {
 
     @Override
     protected void init() {
-
+        mButton.setOnClickListener(this);
     }
 
+    @Override
+    public void onClick(View v){
+        Passage passage = new Passage(null,"customize",mEditText.getText().toString());
+        startActivityWithObject(PassageActivity.class,passage);
+    }
 }

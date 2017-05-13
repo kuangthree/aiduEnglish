@@ -30,6 +30,10 @@
         </activity>
         <activity android:name=".view_controller.ReadActivity">
         </activity>
+        <activity android:name=".view_controller.TestActivity">
+        </activity>
+        <activity android:name=".view_controller.PassageActivity">
+        </activity>
     </application>
 
 </manifest>

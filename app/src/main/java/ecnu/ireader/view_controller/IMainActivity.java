@@ -76,6 +76,7 @@ public class IMainActivity extends KEventBusBaseActivity implements View.OnClick
                 startActivity(LibraryActivity.class);
                 break;
             case R.id.main_setting_bt:
+                startActivity(TestActivity.class);
                 break;
         }
     }

@@ -26,7 +26,7 @@ abstract public class KBaseActivity extends AppCompatActivity {
 
     //封装一个通过静态方式传递对象的方法，避免实现序列化接口
     private static class ObjectPasser{
-        static HashMap<String,Object> sMap;
+        static HashMap<String,Object> sMap = new HashMap<>();
         synchronized static void put(String key, Object object){
             sMap.put(key,object);
         }

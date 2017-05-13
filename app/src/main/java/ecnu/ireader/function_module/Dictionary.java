@@ -25,7 +25,7 @@ import ecnu.ireader.model.Word;
 public class Dictionary extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "word_database.db";
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 3;
     public static final String LEVEL_ZK = "中考";
     public static final String LEVEL_GK = "高考";
     public static final String LEVEL_4 = "四级";
@@ -41,7 +41,11 @@ public class Dictionary extends SQLiteOpenHelper {
     private enum Level{中考, 高考, 四级, 六级, 八级}
 
     public static class LoadCompleteEvent{
-
+        public int count;
+        public LoadCompleteEvent setCount(int count){
+            this.count = count;
+            return this;
+        }
     }
     public static class LoadingEvent{
         public LoadingEvent(int count,String event){
@@ -70,8 +74,11 @@ public class Dictionary extends SQLiteOpenHelper {
     //加载词典
     public static void loadDictionary(){
         SQLiteDatabase db = sDictionary.getReadableDatabase();
-        db.close();
-        EventBus.getDefault().post(new LoadCompleteEvent());
+        Cursor cursor = db.rawQuery("SELECT COUNT(*) FROM words",new String[]{});
+        cursor.moveToFirst();
+        sDictionary.mCount = Integer.parseInt(cursor.getString(0));
+        cursor.close();
+        EventBus.getDefault().post(new LoadCompleteEvent().setCount(sDictionary.mCount));
     }
 
     private Dictionary(Context context) {
@@ -108,6 +115,7 @@ public class Dictionary extends SQLiteOpenHelper {
         return ret;
     }
     public Word searchAccurateWord(String word){
+        word = word.toLowerCase();
         Cursor cursor = getReadableDatabase()
                 .rawQuery("SELECT * FROM words " +
                         "WHERE english = ?",new String[]{word});
@@ -125,24 +133,21 @@ public class Dictionary extends SQLiteOpenHelper {
                 o = i;
             }
         }
-        return Level.valueOf(level).ordinal()>=o;
+        return Level.valueOf(level).ordinal() >= o;
     }
     public Word[] searchSimilarWord(String word){
+        word = word.toLowerCase();
         Word w = searchAccurateWord(word);
         if(w != null)return new Word[]{w};
-        if( word.length() > 3 ){
-            Cursor cursor = getReadableDatabase()
-                    .rawQuery("SELECT * FROM words WHERE (english like ?) OR (english like ?) OR (english like ?) SORT BY english",new String[]{word+"%",
-                            wordCutTail(word,1)+"%",
-                            wordCutTail(word,2)+"%"});
-            Word[] ret = cursorToWordArray(cursor);
-            cursor.close();
-            return ret;
-        } else {
-            return new Word[]{};
-        }
+        int l = word.length();
+        l = l >= CUT_LENGTH.length ? CUT_LENGTH.length-1 : l ;
+        Cursor cursor = getReadableDatabase()
+                .rawQuery("SELECT * FROM words WHERE (english like ?) ORDER BY english",new String[]{wordCutTail(word,CUT_LENGTH[l])+"%"});
+        Word[] ret = cursorToWordArray(cursor);
+        cursor.close();
+        return ret;
     }
-
+    private final int[] CUT_LENGTH={0,0,0,1,2,2,2,3,3,3,3,4,4};
     private static String wordCutTail(String word,int n){
         return word.substring(0,word.length()-n);
     }
@@ -184,6 +189,7 @@ public class Dictionary extends SQLiteOpenHelper {
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
+        db.execSQL("drop table if exists words;");
         onCreate(db);
     }
 

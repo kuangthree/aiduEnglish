@@ -615,6 +615,7 @@
 {"meaning":"n.帽子(一般指带边的)","english":"hat"}
 {"meaning":"v.讨厌；不喜欢；憎恨","english":"hate"}
 {"meaning":"v.有","english":"have"}
+{"meaning":"v.有 have的过去式","english":"had"}
 {"meaning":"pron.他","english":"he"}
 {"meaning":"n.头；头部","english":"head"}
 {"meaning":"n.头痛","english":"headache"}

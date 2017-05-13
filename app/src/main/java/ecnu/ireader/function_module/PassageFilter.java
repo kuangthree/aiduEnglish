@@ -1,9 +1,14 @@
 package ecnu.ireader.function_module;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.ClickableSpan;
+import android.text.style.ForegroundColorSpan;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,6 +23,7 @@ import ecnu.ireader.model.Word;
 
 public class PassageFilter {
 
+
     public interface OnWordClickListener{
         void onWordClick(Word word);
     }
@@ -30,19 +36,11 @@ public class PassageFilter {
 
         private SpannableString mSpannableContent;
 
-        private ArrayList<Word> mAnnotationWords=new ArrayList<>();
 
         public SpannableString getSpannableContent(){
             return mSpannableContent;
         }
 
-        public Word[] getAnnotationWords(){
-            return mAnnotationWords.toArray(new Word[mAnnotationWords.size()]);
-        }
-
-        public int getAnnotationWordCount(){
-            return mAnnotationWords.size();
-        }
 
         @Override
         public boolean hasFiltered(){
@@ -56,7 +54,7 @@ public class PassageFilter {
     private int mMode = MODE_ANNO;
     private OnWordClickListener mListener = null;
     private Dictionary mDictionary = null;
-
+    private String mLevel = Dictionary.LEVEL_4;
     public PassageFilter(Context context){
         mDictionary = Dictionary.getInstance(context);
     }
@@ -68,15 +66,24 @@ public class PassageFilter {
         mMode = mode;
         return this;
     }
-
+    public PassageFilter setLevel(String level){
+        mLevel = level;
+        return this;
+    }
     public PassageFilter setOnWordClickListener(OnWordClickListener listener){
         mListener = listener;
         return this;
     }
 
-    public FilteredPassage filter(Passage passage){
-
-        return null;
+    public FilteredPassage filterPassage(Passage passage){
+        switch (mMode){
+            case MODE_ANNO:
+                return addAnnotation(passage);
+            case MODE_CLICK:
+                return addLink(passage);
+            default:
+                return null;
+        }
     }
 
     private FilteredPassage addAnnotation(Passage passage){
@@ -86,23 +93,82 @@ public class PassageFilter {
             String s = scanner.nextLine();
             Scanner innerScanner = new Scanner(s);
             while (innerScanner.hasNext()){
-                String w = removePunctuation(innerScanner.next());
-                Word[] ws= mDictionary.searchSimilarWord(w);
+                String w =innerScanner.next();
+                boolean isInLevel = mDictionary.isInLevel(removePunctuation(w),mLevel);
+                if(isInLevel){
+                    ssb.append(w);
+                    ssb.append(' ');
+                    continue;
+                }
+                Word[] wds = mDictionary.searchSimilarWord(removePunctuation(w));
+                if(wds.length>0){
+                    w = w + "(" + wds[0].getMeaning() + ")";
+                }
+                SpannableString ss = new SpannableString(w);
+                ss.setSpan(new ForegroundColorSpan(Color.RED),0,ss.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                ssb.append(ss);
+                ssb.append(' ');
             }
+            ssb.append('\n');
         }
-        return null;
+        FilteredPassage fp = new FilteredPassage(passage);
+        fp.mSpannableContent = new SpannableString(ssb);
+        return fp;
     }
 
     private FilteredPassage addLink(Passage passage){
-        //TODO：加点击事件
-        return null;
+        SpannableStringBuilder ssb = new SpannableStringBuilder();
+        Scanner scanner = new Scanner(passage.getContent());
+        while (scanner.hasNextLine()){
+            String s = scanner.nextLine();
+            Scanner innerScanner = new Scanner(s);
+            while (innerScanner.hasNext()){
+                final String w =innerScanner.next();
+                boolean isInLevel = mDictionary.isInLevel(removePunctuation(w),mLevel);
+                if(isInLevel){
+                    ssb.append(w);
+                    ssb.append(' ');
+                    continue;
+                }
+                final Word[] wds = mDictionary.searchSimilarWord(removePunctuation(w));
+                SpannableString ss = new SpannableString(w);
+                if(wds.length==0){
+                    ss.setSpan(new ClickableSpan() {
+                        @Override
+                        public void onClick(View view) {
+                            if(mListener!=null){
+                                mListener.onWordClick(new Word(removePunctuation(w),null,null));
+                            }
+                        }
+                    },0,ss.length(),Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                }else {
+                    ss.setSpan(new ClickableSpan() {
+                        @Override
+                        public void onClick(View view) {
+                            if(mListener!=null){
+                                mListener.onWordClick(wds[0]);
+                            }
+                        }
+                    },0,ss.length(),Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                }
+                ssb.append(ss);
+                ssb.append(' ');
+            }
+            ssb.append('\n');
+        }
+        FilteredPassage fp = new FilteredPassage(passage);
+        fp.mSpannableContent = new SpannableString(ssb);
+        return fp;
     }
 
     private static String removePunctuation(String word){
-        char c = word.charAt(word.length()-1);
-        if(!((c>='a' && c<='z') || (c>='A' && c<='Z') || c == '\'')){
-            return word.substring(0,word.length()-1);
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0;i<word.length();i++){
+            char c = word.charAt(i);
+            if(((c>='a' && c<='z') || (c>='A' && c<='Z') || c == '\'')){
+                sb.append(c);
+            }
         }
-        return word;
+        return sb.toString();
     }
 }
