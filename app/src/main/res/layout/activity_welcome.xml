@@ -6,11 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ecnu.ireader.view_controller.WelcomeActivity"
-    android:background="@android:color/white">
+    android:background="@drawable/w">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:text="@string/iread"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/welcome_text"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="end|bottom"
         />
+
 </LinearLayout>

@@ -8,7 +8,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 /**
  * Created by Shensheng on 2017/5/5.
- * 集成了EventBus
+ * 集成了EventBus，自动注册和取消注册
+ * 可以通过ExitAppEvent事件一次关闭所有KEventBusBaseActivity
  */
 
 abstract public class KEventBusBaseActivity extends KBaseActivity {
@@ -39,4 +40,5 @@ abstract public class KEventBusBaseActivity extends KBaseActivity {
         log_d("activity finish with ExitAppEvent"+e.code);
         finish();
     }
+
 }

@@ -1,17 +1,13 @@
 package ecnu.ireader.view_controller;
-
-import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
 import butterknife.BindView;
 import ecnu.ireader.R;
-import ecnu.ireader.function_module.Dictionary;
 import ecnu.ireader.function_module.PassageFilter;
+import ecnu.ireader.function_module.UserConfig;
 import ecnu.ireader.model.Passage;
 import ecnu.ireader.model.Word;
 import kbaseclass.KEventBusBaseActivity;
@@ -21,7 +17,7 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
     TextView mTextView;
 
     private Passage mPassage;
-
+    private UserConfig mUserConfig = UserConfig.getInstance();
     @Override
     protected int getContentViewId() {
         return R.layout.activity_passage;
@@ -54,8 +50,8 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
             @Override
             public void run(){
                 PassageFilter pf = new PassageFilter(PassageActivity.this);
-                pf.setMode(PassageFilter.MODE_ANNO);
-                pf.setLevel(Dictionary.LEVEL_GK);
+                pf.setMode(mUserConfig.getMode());
+                pf.setLevel(mUserConfig.getLevel());
                 pf.setOnWordClickListener(PassageActivity.this);
                 PassageFilter.FilteredPassage passage = pf.filterPassage(mPassage);
                 PassageActivity.LoadCompleteEvent event = new LoadCompleteEvent();
@@ -67,7 +63,9 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
 
     @Override
     public void onWordClick(Word word) {
-
+        if(word.getMeaning()!=null){
+            startActivityWithObject(WordActivity.class,word);
+        }
     }
 
     private static class LoadCompleteEvent{

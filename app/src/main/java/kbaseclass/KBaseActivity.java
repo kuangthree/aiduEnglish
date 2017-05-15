@@ -7,11 +7,7 @@ import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
-
-import org.greenrobot.eventbus.EventBus;
-
 import java.util.HashMap;
-
 import butterknife.ButterKnife;
 import icepick.Icepick;
 
@@ -19,7 +15,9 @@ import icepick.Icepick;
  * Created by 匡申升 on 2017/4/12.
  * 集成了ButterKnife和Icepick控件的Activity
  * 通过静态方法传递对象，避免了构建Intent和实现序列化接口的麻烦
- * 封装了Log.d及Log.d
+ * makeShortToast直接显示小窗口
+ * 封装了Log.d及Log.d，自动根据类名生成Tag
+ * （Java 8 支持接口默认实现的话，可以把耦合度变低一些…… 目前还不行）
  */
 
 abstract public class KBaseActivity extends AppCompatActivity {
@@ -31,26 +29,24 @@ abstract public class KBaseActivity extends AppCompatActivity {
             sMap.put(key,object);
         }
         synchronized static Object get(String key){
-            Object object = sMap.get(key);
+            return sMap.get(key);
+        }
+        synchronized static void remove(String key){
             sMap.remove(key);
-            return object;
         }
     }
 
-    private Object mPassed;
-
-    //获取传递回来的对象，如果没有对象，或者对象已经被获取，则抛出异常
+    //获取通过startActivityWithObject启动时传递的对象，多个对象请用Object数组来传递。
     final protected Object getPassedObject(){
-        if(mPassed == null){
-            throw new RuntimeException("There is no object passed.");
+        Object object = ObjectPasser.get(this.getClass().getName());
+        if(object == null){
+            throw new RuntimeException("No object passed.");
         }
-        Object ret = mPassed;
-        mPassed = null;
-        return ret;
+        return object;
     }
 
     final protected boolean hasPassedObject(){
-        return mPassed!=null;
+        return getIntent().getBooleanExtra("hasObjectPassed",false);
     }
 
     @LayoutRes
@@ -61,9 +57,6 @@ abstract public class KBaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(getContentViewId());
-        if(getIntent().getBooleanExtra("hasObjectPassed",false)){
-            mPassed = ObjectPasser.get(this.getClass().getName());
-        }
         ButterKnife.bind(this);
         init();
     }
@@ -73,7 +66,12 @@ abstract public class KBaseActivity extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
         Icepick.saveInstanceState(this,savedInstanceState);
     }
-
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        //删除传递的对象，防止内存泄漏
+        ObjectPasser.remove(this.getClass().getName());
+    }
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
@@ -84,7 +82,9 @@ abstract public class KBaseActivity extends AppCompatActivity {
         Intent intent=new Intent(this,c);
         startActivity(intent);
     }
-
+    /*
+    * 打开的Activity通过getPassedObject方法获得传递的对象，该对象会保存到onDestroy被调用。
+    * */
     public void startActivityWithObject(Class<? extends KBaseActivity> c,Object object){
         Intent intent = new Intent(this,c);
         intent.putExtra("hasObjectPassed",true);
