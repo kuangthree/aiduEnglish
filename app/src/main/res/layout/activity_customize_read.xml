@@ -9,10 +9,23 @@
     android:background="@android:color/white"
     tools:context="ecnu.ireader.view_controller.CustomizeReadActivity">
     <EditText
+        android:id="@+id/customize_read_title_edit"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="@string/please_input_title"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <EditText
         android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
         android:layout_gravity="top"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="400dp"
+        android:hint="@string/please_input_content"
         android:id="@+id/cus_edit"/>
     <Button
         android:textColor="@android:color/black"

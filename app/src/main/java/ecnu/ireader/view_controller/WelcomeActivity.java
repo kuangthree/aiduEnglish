@@ -6,6 +6,7 @@ import butterknife.BindView;
 import ecnu.ireader.R;
 import ecnu.ireader.function_module.Dictionary;
 import kbaseclass.KEventBusBaseActivity;
+import ktool.KTools;
 
 public class WelcomeActivity extends KEventBusBaseActivity {
 
@@ -37,8 +38,14 @@ public class WelcomeActivity extends KEventBusBaseActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onLoadComplete(Dictionary.LoadCompleteEvent event){
         mTextView.setText("加载完成");
-        startActivity(IMainActivity.class);
-        this.finish();
+        KTools.runBackground(new Runnable() {
+            @Override
+            public void run() {
+                KTools.sleep(1500,this);
+                startActivity(IMainActivity.class);
+                WelcomeActivity.this.finish();
+            }
+        });
     }
 
 

@@ -9,14 +9,14 @@
 
     <SearchView
         android:background="@android:color/transparent"
-        android:id="@+id/searchView"
+        android:id="@+id/dic_search_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
         android:queryHint="请输入搜索内容" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/dic_list_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />

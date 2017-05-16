@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import ecnu.ireader.model.Word;
+import ktool.KTools;
 
 
 /**
@@ -103,7 +104,7 @@ public class Dictionary extends SQLiteOpenHelper {
             loadLevel(LEVEL_6,FILE_LEVEL_6,db);
             loadLevel(LEVEL_8,FILE_LEVEL_8,db);
         }catch (Exception e){
-            e.printStackTrace();
+            KTools.logException(this,e);
         }
     }
     public Word[] searchWordWithPrefix(String prefix){

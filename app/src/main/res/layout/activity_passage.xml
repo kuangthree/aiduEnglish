@@ -4,11 +4,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:background="@android:color/white"
     android:layout_height="match_parent"
     tools:context="ecnu.ireader.view_controller.PassageActivity">
-
     <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/passage_title_text"/>
+    <TextView
+        android:textSize="23sp"
         android:id="@+id/passage_text_view"
         android:textColor="@android:color/black"
         android:layout_width="match_parent"

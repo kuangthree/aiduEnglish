@@ -8,4 +8,6 @@
     <string name="collection">收藏</string>
     <string name="iread">I read</string>
     <string name="customize_read">自定义阅读</string>
+    <string name="please_input_title">请输入标题</string>
+    <string name="please_input_content">请输入内容</string>
 </resources>

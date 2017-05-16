@@ -25,4 +25,10 @@ public class Word {
         return mMeaning;
     }
 
+    @Override
+    public String toString(){
+        if(mMeaning == null || mLevel == null)
+        return mEnglish;
+        else return mEnglish+" "+mMeaning+" "+mLevel;
+    }
 }
