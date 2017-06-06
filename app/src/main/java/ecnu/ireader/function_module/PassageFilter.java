@@ -8,13 +8,17 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.View;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 import ecnu.ireader.model.Passage;
 import ecnu.ireader.model.Word;
+import ktool.KTools;
 
 /**
  * Created by Shensheng on 2017/5/5.
@@ -22,8 +26,10 @@ import ecnu.ireader.model.Word;
  */
 
 public class PassageFilter {
-
-
+    private static final int LOAD_UNIT_WORDS = 90;
+    public static class OnLoadingEvent{
+        public SpannableString content;
+    }
     public interface OnWordClickListener{
         void onWordClick(Word word);
     }
@@ -89,11 +95,13 @@ public class PassageFilter {
     private FilteredPassage addAnnotation(Passage passage){
         SpannableStringBuilder ssb = new SpannableStringBuilder();
         Scanner scanner = new Scanner(passage.getContent());
+        int countWord=0;
         while (scanner.hasNextLine()){
             String s = scanner.nextLine();
             Scanner innerScanner = new Scanner(s);
             while (innerScanner.hasNext()){
                 String w =innerScanner.next();
+                countWord++;
                 boolean isInLevel = mDictionary.isInLevel(removePunctuation(w),mLevel);
                 if(isInLevel){
                     ssb.append(w);
@@ -108,6 +116,12 @@ public class PassageFilter {
                 ss.setSpan(new ForegroundColorSpan(Color.RED),0,ss.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
                 ssb.append(ss);
                 ssb.append(' ');
+                if(countWord >= LOAD_UNIT_WORDS){
+                    countWord = 0;
+                    OnLoadingEvent ole = new OnLoadingEvent();
+                    ole.content = new SpannableString(ssb);
+                    EventBus.getDefault().post(ole);
+                }
             }
             ssb.append('\n');
         }
@@ -119,10 +133,12 @@ public class PassageFilter {
     private FilteredPassage addLink(Passage passage){
         SpannableStringBuilder ssb = new SpannableStringBuilder();
         Scanner scanner = new Scanner(passage.getContent());
+        int countWord = 0;
         while (scanner.hasNextLine()){
             String s = scanner.nextLine();
             Scanner innerScanner = new Scanner(s);
             while (innerScanner.hasNext()){
+                countWord++;
                 final String w =innerScanner.next();
                 boolean isInLevel = mDictionary.isInLevel(removePunctuation(w),mLevel);
                 if(isInLevel){
@@ -153,6 +169,12 @@ public class PassageFilter {
                 }
                 ssb.append(ss);
                 ssb.append(' ');
+                if(countWord>=LOAD_UNIT_WORDS){
+                    countWord=0;
+                    OnLoadingEvent ole = new OnLoadingEvent();
+                    ole.content = new SpannableString(ssb);
+                    EventBus.getDefault().post(ole);
+                }
             }
             ssb.append('\n');
         }

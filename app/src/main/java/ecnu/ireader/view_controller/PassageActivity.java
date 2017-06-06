@@ -22,17 +22,8 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
     TextView mTitleText;
 
     private Passage mPassage;
+    private boolean mLoadFinished = false;
     private UserConfig mUserConfig = UserConfig.getInstance();
-    private KLoopThread mLoopThread = new KLoopThread() {
-        @Override
-        public void loop() {
-            EventBus.getDefault().post(new WaitingEvent(){});
-            KTools.sleep(500,this);
-        }
-    };
-    private interface WaitingEvent{
-
-    }
     @Override
     protected int getContentViewId() {
         return R.layout.activity_passage;
@@ -48,7 +39,11 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
         mTextView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                
+                if(!mLoadFinished){
+                    makeShortToast("加载中，请稍后");
+                }else{
+                    makeShortToast("正在制作收藏模块");
+                }
                 return false;
             }
         });
@@ -73,12 +68,17 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onLoadComplete(LoadCompleteEvent e){
-        mLoopThread.exit();
+        mLoadFinished = true;
         mPassage = e.passage;
         mTextView.setText(((PassageFilter.FilteredPassage)mPassage).getSpannableContent());
         log_e(((PassageFilter.FilteredPassage)mPassage).getSpannableContent().toString());
     }
-
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onLoading(PassageFilter.OnLoadingEvent ole){
+        int scrollY = mTextView.getScrollY();
+        mTextView.setText(ole.content);
+        mTextView.setScrollY(scrollY);
+    }
     private void startFilterTask(){
         KTools.runBackground(new Runnable() {
             @Override
@@ -93,16 +93,8 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
                 EventBus.getDefault().post(event);
             }
         });
-        changeWaitingText();
     }
-    private void changeWaitingText(){
-        mLoopThread.start();
-    }
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onWaitingTextChanged(WaitingEvent e){
-        String str = mTextView.getText()+".";
-        mTextView.setText(str);
-    }
+
 
     @Override
     public void onWordClick(Word word) {

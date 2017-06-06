@@ -1,4 +1,6 @@
 package ecnu.ireader.view_controller;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -57,5 +59,11 @@ public class DictionaryActivity extends KEventBusBaseActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onSearch(DictionaryActivity.LoadingEvent e){
         mListView.setAdapter(new ArrayAdapter<>(this,R.layout.word_search_item,mWords));
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                startActivityWithObject(WordActivity.class,mWords[i]);
+            }
+        });
     }
 }

@@ -10,11 +10,18 @@ public class Word {
     private final String mEnglish;
     private final String mMeaning;
     private final String mLevel;
-
+    private String mTag;
     public Word(String english,String meaning,String level){
         mEnglish = english;
         mMeaning = meaning;
         mLevel = level;
+    }
+    public Word setTag(String tag){
+        mTag = tag;
+        return this;
+    }
+    public String getTag(){
+        return mTag;
     }
     public String getLevel(){return mLevel;};
     public String getEnglish() {

@@ -22,6 +22,10 @@ public class UserConfig {
         mLevel = level;
         return this;
     }
+    public UserConfig setLevel(int l){
+        mLevel = (new String[]{Dictionary.LEVEL_ZK,Dictionary.LEVEL_GK,Dictionary.LEVEL_4,Dictionary.LEVEL_6,Dictionary.LEVEL_8})[l];
+        return this;
+    }
     public UserConfig setMode(int mode){
         mMode = mode;
         return this;

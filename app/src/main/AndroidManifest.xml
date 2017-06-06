@@ -36,6 +36,10 @@
         </activity>
         <activity android:name=".view_controller.SettingActivity">
         </activity>
+        <activity
+            android:name=".view_controller.SettingsActivity"
+            android:label="@string/title_activity_settings">
+        </activity>
     </application>
 
 </manifest>

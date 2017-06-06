@@ -5,27 +5,80 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
     tools:context="ecnu.ireader.view_controller.SettingActivity">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <TextView
+            android:text="等级设置"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/black"/>
+            android:textSize="25sp"
+            android:textColor="@android:color/white"/>
+
         <RadioGroup
+            android:id="@+id/set_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/set_ck_zk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中考"/>
+
+            <RadioButton
+                android:id="@+id/set_ck_gk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="高考"/>
+
+            <RadioButton
+                android:id="@+id/set_ck_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="四级"/>
+
+            <RadioButton
+                android:id="@+id/set_ck_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="六级"/>
+
+            <RadioButton
+                android:id="@+id/set_ck_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="八级"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:text="模式"/>
+        <RadioGroup
+            android:id="@+id/set_rg2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/set_rb_cl"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="20dp"
+                android:text="点击模式"/>
+            <RadioButton
+                android:id="@+id/set_rb_an"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="注释模式"/>
         </RadioGroup>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
     </LinearLayout>
 </LinearLayout>

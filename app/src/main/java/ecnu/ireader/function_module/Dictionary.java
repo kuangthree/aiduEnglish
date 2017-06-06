@@ -26,7 +26,7 @@ import ktool.KTools;
 public class Dictionary extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "word_database.db";
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 5;
     public static final String LEVEL_ZK = "中考";
     public static final String LEVEL_GK = "高考";
     public static final String LEVEL_4 = "四级";
@@ -60,7 +60,8 @@ public class Dictionary extends SQLiteOpenHelper {
             "id integer primary key autoincrement," +
             "english varchar(50)," +
             "meaning varchar(300)," +
-            "level varchar(30)" +
+            "level varchar(30)," +
+            "isCollect integer default 0" +
             ")";
     private Context mContext;
     private int mCount;
@@ -68,7 +69,7 @@ public class Dictionary extends SQLiteOpenHelper {
 
     public static Dictionary getInstance(Context context){
         if(sDictionary == null){
-            sDictionary = new Dictionary(context);
+            sDictionary = new Dictionary(context.getApplicationContext());
         }
         return sDictionary;
     }
@@ -157,11 +158,11 @@ public class Dictionary extends SQLiteOpenHelper {
         if(!cursor.moveToFirst())return new Word[0];
         ArrayList<Word> words = new ArrayList<>();
         do{
-            words.add(new Word(
+            words.add( new Word(
                     cursor.getString(cursor.getColumnIndex("english")),
                     cursor.getString(cursor.getColumnIndex("meaning")),
                     cursor.getString(cursor.getColumnIndex("level"))
-            ));
+            ).setTag(cursor.getString(cursor.getColumnIndex("id"))) );
         }while (cursor.moveToNext());
         return words.toArray(new Word[words.size()]);
     }
@@ -194,4 +195,32 @@ public class Dictionary extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    public boolean isInCollection(Word word){
+        String id = word.getTag();
+        Cursor cursor = getReadableDatabase().rawQuery("SELECT * FROM words WHERE id = ? AND isCollect = 1",new String[]{id});
+        boolean b = cursor.moveToFirst();
+        cursor.close();
+        return b;
+    }
+
+    public Word[] getCollections(){
+        Cursor cursor = getReadableDatabase().rawQuery("SELECT * FROM words WHERE isCollect = 1",new String[]{});
+        Word[] words = cursorToWordArray(cursor);
+        cursor.close();
+        return words;
+    }
+
+    public void addInCollections(Word word){
+        if(word.getTag()==null)return;
+        SQLiteDatabase db = getWritableDatabase();
+        db.execSQL("UPDATE words SET isCollect = 1 WHERE id = ?",new Object[]{word.getTag()});
+        db.close();
+    }
+
+    public void removeInCollections(Word word){
+        if(word.getTag()==null)return;
+        SQLiteDatabase db = getWritableDatabase();
+        db.execSQL("UPDATE words SET isCollect = 0 WHERE id = ?",new Object[]{word.getTag()});
+        db.close();
+    }
 }
