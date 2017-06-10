@@ -49,5 +49,9 @@
         android:textSize="25sp"
         android:background="@android:color/transparent"
         android:layout_height="30dp"/>
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="访问搜狗词典获得详细释义"
+        android:id="@+id/wd_web_bt"/>
 </LinearLayout>

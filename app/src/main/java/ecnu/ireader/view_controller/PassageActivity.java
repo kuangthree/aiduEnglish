@@ -7,6 +7,7 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import butterknife.BindView;
 import ecnu.ireader.R;
+import ecnu.ireader.function_module.PassageCollection;
 import ecnu.ireader.function_module.PassageFilter;
 import ecnu.ireader.function_module.UserConfig;
 import ecnu.ireader.model.Passage;
@@ -28,7 +29,7 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
     protected int getContentViewId() {
         return R.layout.activity_passage;
     }
-
+    public interface RefreshEvent{}
     @Override
     protected void init() {
         if(!hasPassedObject()){
@@ -42,7 +43,18 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
                 if(!mLoadFinished){
                     makeShortToast("加载中，请稍后");
                 }else{
-                    makeShortToast("正在制作收藏模块");
+                    PassageCollection pc = PassageCollection.getInstance(PassageActivity.this);
+                    if(!mPassage.hasId()){
+                        makeShortToast("自定义阅读文章无法收藏！");
+                    }else if(pc.isInCollection(mPassage)){
+                        pc.remove(mPassage);
+                        makeShortToast("成功取消收藏");
+                        EventBus.getDefault().post(new RefreshEvent(){});
+                    }else{
+                        pc.add(mPassage);
+                        makeShortToast("成功添加收藏");
+                        EventBus.getDefault().post(new RefreshEvent(){});
+                    }
                 }
                 return false;
             }
@@ -100,6 +112,8 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
     public void onWordClick(Word word) {
         if(word.getMeaning()!=null){
             startActivityWithObject(WordActivity.class,word);
+        }else{
+            startActivityWithObject(WordWebActivity.class,word.getEnglish());
         }
     }
 

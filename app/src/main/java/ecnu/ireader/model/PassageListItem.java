@@ -16,6 +16,11 @@ public class PassageListItem {
         mTitle = title;
     }
 
+    @Override
+    public String toString(){
+        return mTitle;
+    }
+
     public String getId() {
         return mId;
     }

@@ -28,12 +28,12 @@ public class WelcomeActivity extends KEventBusBaseActivity {
         UserConfig.getInstance().setMode(sp.getInt("mode", PassageFilter.MODE_ANNO));
         UserConfig.getInstance().setLevel(sp.getInt("level",0));
         Dictionary.getInstance(this);
-        (new Thread(){
+        KTools.runBackground(new Runnable() {
             @Override
-            public void run(){
+            public void run() {
                 Dictionary.loadDictionary();
             }
-        }).start();
+        });
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -48,7 +48,7 @@ public class WelcomeActivity extends KEventBusBaseActivity {
         KTools.runBackground(new Runnable() {
             @Override
             public void run() {
-                KTools.sleep(1500,this);
+                KTools.sleep(1500);
                 startActivity(IMainActivity.class);
                 WelcomeActivity.this.finish();
             }

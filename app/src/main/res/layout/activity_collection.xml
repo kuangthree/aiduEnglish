@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ecnu.ireader.view_controller.CollectionActivity">
-
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <Button
+            android:id="@+id/col_wd_bt"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:text="单词"
+            android:layout_margin="3dp"/>
+        <Button
+            android:id="@+id/col_ps_bt"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="60dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="3dp"
+            android:text="文章"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/col_list_view"
+        />
+</LinearLayout>
