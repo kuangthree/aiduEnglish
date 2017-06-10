@@ -83,7 +83,6 @@ public class PassageActivity extends KEventBusBaseActivity implements PassageFil
         mLoadFinished = true;
         mPassage = e.passage;
         mTextView.setText(((PassageFilter.FilteredPassage)mPassage).getSpannableContent());
-        log_e(((PassageFilter.FilteredPassage)mPassage).getSpannableContent().toString());
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onLoading(PassageFilter.OnLoadingEvent ole){
